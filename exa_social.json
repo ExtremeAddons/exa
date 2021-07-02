@@ -1,21 +1,67 @@
 {
-	"orderpages": {
-		"BlenderMarket": "https://blendermarket.com/account/orders",
-		"GumRoad": "https://gumroad.com/library"
-	},
-	"social_links": {
-		"Youtube": "https://www.youtube.com/channel/UCe5vB8ehr9hrQrYvfCb8j9w",
-		"Twitter": "https://twitter.com/AndrewD80747502"
-	},
-	"updates": {
-		"4.0.100": {
-			"date": "22-04-2021",
-			"name": "Extreme PBR",
-			"edition": "Evo",
-			"open_url": "none",
-			"descriptions": {
-				"Bugfix": "Fixed version update check"
-			}
-		}
-	}
+    "orderpages": {
+        "BlenderMarket": "https://blendermarket.com/account/orders",
+        "GumRoad": "https://gumroad.com/library"
+    },
+    "social_links": {
+        "Youtube": "https://www.youtube.com/channel/UCe5vB8ehr9hrQrYvfCb8j9w",
+        "Instagram": "https://www.instagram.com/andrew_dx3/",
+        "Twitter": "https://twitter.com/AndrewD80747502",
+        "Extreme-Addons": "http://extreme-addons.com/",
+        "Facebook": "https://www.facebook.com/andrew3dart/"
+    },
+    "updates": {
+        "4.0.100": {
+            "date": "22-04-2021",
+            "name": "Extreme PBR",
+            "edition": "Evo",
+            "open_url": "none",
+            "descriptions": {
+                "Bugfix": "Fixed version update check"
+            }
+        }
+    },
+    "manual": {
+        "manual_urls": {
+            "HOME_PAGE": "https://docs.extreme-addons.com/manual/extreme-pbr/", 
+            "BAKE_MENU": "",
+            "MATERIAL_INFO_POPUP": "",
+            "MATERIAL_TAG_POPUP": "",
+            "TEXTURE_MANAGER_COMPACT_MATERIAL_MANAGER": "",
+            "IMAGE_BOX_VIEWER": "",
+            "TEXTURE_MANAGER_IMAGE_CTRL": "",
+            "TEXTURE_MANAGER_INDIVIDUAL_VECTORS": "",
+            "SAVE_MATERIAL_MENU": "",
+            "PAINT_EDITOR_1": "",
+            "CREATOR_INTERFACE_TOP": "",
+            "NODE_UTILITY_MENU": "",
+            "PANEL_BUILDER_HELPER": "",
+            "CREATOR_UTIL_OPS": "",
+            "CREATOR_JSON_OPS": "",
+            "CREATOR_MAT_INFO_JSON": "",
+            "CREATOR_MAT_SETTINGS_JSON": "",
+            "CREATOR_GROUP_INPUTS_JSON": "",
+            "SHADER_MAKER_VIDEO_CTRL": "",
+            "SOCIAL_UPDATE_MENU": "",
+            "TEXTURE_BROWSER_BOX": "",
+            "OPTIONS_MENU": "",
+            "LIBRARY_MANAGER_INTERFACE": "https://docs.extreme-addons.com/manual/manager-interface/#manager-interface",
+            "TAG_AND_MATERIAL_OPTIONS": "https://docs.extreme-addons.com/manual/tag-and-material-options/",
+            "ADD_REMOVE_REPLACE": "https://docs.extreme-addons.com/manual/add-remove-replace-material/#add-remove-replace-material",
+            "ASSIGN_AND_SELECT": "",
+            "MATERIAL_LIST_SECTION": "https://docs.extreme-addons.com/manual/material-list-section/#material-list-section",
+            "BOX_UTILITY_1": "",
+            "SAVE_MATERIAL_EDITOR_1": "",
+            "UNRECOGNIZED_MATERIAL": "",
+            "TEXTURE_PAINT_MIX_MODULE": "",
+            "MATERIAL_GROUP_MODULE": "https://docs.extreme-addons.com/manual/material-group/#material-group",
+            "FX_MODULE_LAYER": "",
+            "DYNAMIC_MASK": "",
+            "ADD_FX_BUTTON": "",
+            "ADJUST_NODE_TREE": "",
+            "DISPLACE_MENU": "",
+            "MICRODISPLACE_MENU": "",
+            "MAPPING_EDITOR_1": ""
+        }
+    }
 }
