@@ -4,11 +4,11 @@
         "GumRoad": "https://gumroad.com/library"
     },
     "social_links": {
-        "Youtube": "https://www.youtube.com/channel/UCe5vB8ehr9hrQrYvfCb8j9w",
-        "Instagram": "https://www.instagram.com/andrew_dx3/",
-        "Twitter": "https://twitter.com/AndrewD80747502",
-        "Extreme-Addons": "http://extreme-addons.com/",
-        "Facebook": "https://www.facebook.com/andrew3dart/"
+        "youtube": "https://www.youtube.com/channel/UCe5vB8ehr9hrQrYvfCb8j9w",
+        "instagram": "https://www.instagram.com/andrew_dx3/",
+        "twitter": "https://twitter.com/AndrewD80747502",
+        "extreme-addons": "http://extreme-addons.com/",
+        "facebook": "https://www.facebook.com/andrew3dart/"
     },
     "updates": {
         "4.0.100": {
