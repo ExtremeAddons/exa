@@ -1,0 +1,21 @@
+{
+	"orderpages": {
+		"BlenderMarket": "https://blendermarket.com/account/orders",
+		"GumRoad": "https://gumroad.com/library"
+	},
+	"social_links": {
+		"Youtube": "https://www.youtube.com/channel/UCe5vB8ehr9hrQrYvfCb8j9w",
+		"Twitter": "https://twitter.com/AndrewD80747502"
+	},
+	"updates": {
+		"4.0.100": {
+			"date": "22-04-2021",
+			"name": "Extreme PBR",
+			"edition": "Evo",
+			"open_url": "none",
+			"descriptions": {
+				"Bugfix": "Fixed version update check"
+			}
+		}
+	}
+}
