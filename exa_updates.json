@@ -1,0 +1,13 @@
+{
+    "updates": {
+        "4.0.100": {
+            "date": "22-04-2021",
+            "name": "Extreme PBR",
+            "edition": "Evo",
+            "open_url": "none",
+            "descriptions": {
+                "Bugfix": "Fixed version update check"
+            }
+        }
+    }
+}
