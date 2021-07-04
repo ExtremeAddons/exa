@@ -17,6 +17,24 @@
 			"descriptions": {
 				"Test": "Il test per update"
 			}
+		},
+		"4.0.118": {
+			"date": "04-07-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"open_url": "",
+			"descriptions": {
+				"Test": "Il test per update"
+			}
+		},
+		"4.0.200": {
+			"date": "04-07-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"open_url": "www.google.com",
+			"descriptions": {
+				"Test": "Il test per update"
+			}
 		}
 	}
 }
