@@ -1,7 +1,11 @@
 {"manual": {
     "manual_urls": {
         "FOLDER_LIBRARIES": "",
-        "FIRST_INSTALLATION":"",
+        "INSTALL_STEP_1": "",
+        "INSTALL_STEP_2": "",
+        "INSTALL_STEP_3": "",
+        "INSTALL_STEP_4": "",
+        "INSTALL_STEP_5": "",
         "ADDON_ACTIVATION": "",
         "BAKE_MENU": "",
         "MATERIAL_INFO_POPUP": "",
