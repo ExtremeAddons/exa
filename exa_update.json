@@ -5,8 +5,8 @@
 			"name": "Extreme PBR",
 			"edition": "Evo",
 			"open_url": "none",
-			"descriptions": {
-				"Bugfix": "Fixed version update check"
+			"urgency": false,
+			"descriptions": {"Bugfix": "Fixed version update check"
 			}
 		},
 		"4.0.115": {
