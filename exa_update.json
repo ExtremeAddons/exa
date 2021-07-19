@@ -4,38 +4,20 @@
 			"date": "22-04-2021",
 			"name": "Extreme PBR",
 			"edition": "Evo",
-			"url": "none",
+			"url": false,
 			"urgency": false,
-			"lock_operators": [],
-			"descriptions": {"Bugfix": "Fixed version update check"
-			}
-		},
-		"4.0.115": {
-			"date": "04-07-2021",
-			"name": "Extreme PBR",
-			"edition": "Nexus",
-			"url": "www.google.com",
-			"urgency": true,
+			"lock_operators": [
+
+			],
 			"descriptions": {
-				"Test": "Il test per update"
-			}
-		},
-		"4.0.118": {
-			"date": "04-07-2021",
-			"name": "Extreme PBR",
-			"edition": "Nexus",
-			"url": "",
-			"descriptions": {
-				"Test": "Il test per update"
-			}
-		},
-		"4.0.200": {
-			"date": "04-07-2021",
-			"name": "Extreme PBR",
-			"edition": "Nexus",
-			"url": "www.google.com",
-			"descriptions": {
-				"Test": "Il test per update"
+				"A": {
+					"Bugfix": "Fixed version update check",
+					"Changes": "Desc for changes"
+				},
+				"B": {
+					"Bugfix": "Fixed version update check",
+					"Another Changes": "Desc for changes"
+				}
 			}
 		}
 	}
