@@ -10,11 +10,11 @@
 
 			],
 			"descriptions": {
-				"A": {
+				"1": {
 					"Bugfix": "Fixed version update check",
 					"Changes": "Desc for changes"
 				},
-				"B": {
+				"2": {
 					"Bugfix": "Fixed version update check",
 					"Another Changes": "Desc for changes"
 				}
