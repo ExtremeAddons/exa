@@ -11,12 +11,12 @@
 			],
 			"descriptions": {
 				"1": {
-					"Bugfix": "Fixed version update check",
-					"Changes": "Desc for changes"
+					"title": "Fixed version update check",
+					"description": "Desc for changes"
 				},
 				"2": {
-					"Bugfix": "Fixed version update check",
-					"Another Changes": "Desc for changes"
+					"title": false,
+					"description": "Desc for changes"
 				}
 			}
 		}
