@@ -6,6 +6,7 @@
 			"edition": "Evo",
 			"open_url": "none",
 			"urgency": false,
+			"lock_operators": [],
 			"descriptions": {"Bugfix": "Fixed version update check"
 			}
 		},
