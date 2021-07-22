@@ -6,9 +6,7 @@
 			"edition": "Evo",
 			"url": false,
 			"urgency": false,
-			"lock_operators": [
-
-			],
+			"lock_operators": ["extremepbr.modalinstaler"],
 			"descriptions": {
 				"1": {
 					"title": "Fixed version update check",
