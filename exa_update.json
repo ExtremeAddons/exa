@@ -5,7 +5,7 @@
 			"name": "Extreme PBR",
 			"edition": "Evo",
 			"url": false,
-			"urgency": false,
+			"urgency": true,
 			"lock_operators": ["EXTREMEPBR_OT_ModalInstaller"],
 			"descriptions": {
 				"1": {
