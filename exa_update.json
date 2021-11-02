@@ -1,20 +1,64 @@
 {
+	"workinprogressblock": {
+		"lock_operators": [
+			""
+		],
+		"description": ""
+	},
 	"updates": {
-		"4.0.108": {
-			"date": "22-04-2021",
+		"4.0.113": {
+			"date": "02-11-2021",
 			"name": "Extreme PBR",
-			"edition": "Evo",
+			"edition": "Nexus",
 			"url": false,
-			"urgency": true,
-			"lock_operators": ["EXTREMEPBR_OT_ModalInstaller"],
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
 			"descriptions": {
 				"1": {
-					"title": "Fixed version update check",
-					"description": "Cantami, o Diva, del Pelìde Achille l'ira funesta che infiniti addusse lutti agli Achei, molte anzi tempo all'Orco generose travolse alme d'eroi, e di cani e d'augelli orrido pasto lor salme abbandonò (così di Giove l'alto consiglio s'adempía), da quando primamente disgiunse aspra contesa il re de' prodi Atride e il divo Achille. E qual de' numi inimicolli? Il figlio di Latona e di Giove. Irato al Sire destò quel Dio nel campo un feral morbo, e la gente pería: colpa d'Atride che fece a Crise sacerdote oltraggio. "
+					"title": "Material Boolean Button",
+					"description": "On some occasions, the boolean button in the material properties showed an error. We fixed it"
+				}
+			}
+		},
+		"4.0.112": {
+			"date": "01-11-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Fixed Libraries Bug",
+					"description": "Fixed the problem that occurred on Mac and Linux, after pressing 'Create Structure' the folders were created incorrectly (Only on Mac and Linux)"
 				},
 				"2": {
-					"title": false,
-					"description": "Desc for changes"
+					"title": "Options Button",
+					"description": "It happened that by pressing the 'Options' button a CONTEXT error was shown. Resolved"
+				}
+			}
+		},
+		"4.0.111": {
+			"date": "29-11-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Fixed Bake Error",
+					"description": "We fixed the API error about tile_x / tile_y, as these bees in Blender 3.0 have changed."
+				},
+				"2": {
+					"title": "No More News",
+					"description": "#"
 				}
 			}
 		}
