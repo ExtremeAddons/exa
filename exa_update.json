@@ -6,6 +6,122 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.120": {
+			"date": "24-11-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": true,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Fixed - Emission on Blender 2.83 to Blender 2.9",
+					"description": "We fixed a bug that occurred on Versions prior to 2.91 through 2.83. The emissivity property was not controllable. We have reactivated a multiplier node for emissivity. (Press Adjust node tree to fix if you are in production)"
+				},
+				"2": {
+					"title": "Implemented - Multiple Adjust Node",
+					"description": "We have added a button (Adjust All Material node Tree) in the Options menu. This fixes all possible broken Materials, or possibly for a passage of a project created with Blender 2.83 to Blender 2.93+ due to the fact that the nodes are slightly different due to the missing Emission Strength socket. This operator fixes everything in one go."
+				}
+			}
+		},
+		"4.0.119": {
+			"date": "22-11-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": true,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Remove Material Bug On lower versions of Blender 2.91",
+					"description": "We have excluded the APIs showing this error on versions prior to Blender 2.91. Everything works the same as before on the higher versions."
+				},
+				"2": {
+					"title": "Emission Bug On lower versions of Blender 2.91",
+					"description": "On versions prior to 2.91 some materials looked White, actually it was the emissivity set to white by default on the Principled BSDF, now it is set to Black, so no emissivity effect that gave the White effect will happen again."
+				}
+			}
+		},
+		"4.0.118": {
+			"date": "19-11-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": true,
+			"lock_operators": [
+				"EXTREMEPBR_OT_GetAllLibraries"
+			],
+			"descriptions": {
+				"1": {
+					"title": "Security Check Error Fix.",
+					"description": "For security reasons we have blocked some operators who use our server. This Block was giving an error. It has now been fixed."
+				},
+				"2": {
+					"title": "Bug on Get Register Fix",
+					"description": "We fixed a communication error with our server that happened when this operator was pressed."
+				}
+			}
+		},
+		"4.0.117": {
+			"date": "15-11-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Password Bug",
+					"description": "Users reported that if they used some special characters in the password (such as quotation marks) it was not possible to activate the addon. We have now solved the problem. We thank some customers for reporting."
+				}
+			}
+		},
+		"4.0.116": {
+			"date": "12-11-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Improved Displace",
+					"description": "Now if the object has other modifiers, the Modifier's subdivision, as a precaution, is set to 1. The displace will always keep a smart subdivision count, based on how many polygons the object you are working on has. This is to keep Blender from freezing too long on complex objects."
+				},
+				"2": {
+					"title": "Show Hidden Password/License",
+					"description": "We noticed that some users were having trouble figuring out if the Mail/Password/License was right. We have put Show / Hide buttons next to each field in the license activation menu"
+				}
+			}
+		},
+		"4.0.115": {
+			"date": "06-11-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "First Installation Issue",
+					"description": "Problem when the user tries to move the libraries, and by mistake does the 'First Installation' the process starts over. Now this has been fixed."
+				},
+				"2": {
+					"title": "Installation Interface Hidden",
+					"description": "During installation, the Extreme PBR interface has been made hidden so as not to create a situation of being able to use Extreme PBR during installation as it could be a risk of installation breakdown. Fixed"
+				}
+			}
+		},
 		"4.0.113": {
 			"date": "02-11-2021",
 			"name": "Extreme PBR",
