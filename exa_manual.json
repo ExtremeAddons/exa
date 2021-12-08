@@ -1,6 +1,7 @@
 {
 	"manual": {
 		"manual_urls": {
+			"HOW_TO_GET_LICENSE": "https://docs.extreme-addons.com/manual/how-to-register-your-product-on-extreme-addons/",
 			"ADDON_ACTIVATION": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-74-installation-step-4",
 			"ADD_FX_BUTTON": "https://docs.extreme-addons.com/manuals-content/8-1-fx-layer/",
 			"ADD_REMOVE_REPLACE": "https://docs.extreme-addons.com/manual/extreme-pbr-add-remove-replace-material/",
@@ -31,7 +32,7 @@
 			"MAPPING_EDITOR_1": "https://docs.extreme-addons.com/manual/extreme-pbr-box-utility/#6-6-box-utility-mapping",
 			"MATERIAL_GROUP_MODULE": "https://docs.extreme-addons.com/manual/material-group/#material-group",
 			"MATERIAL_INFO_POPUP": "https://docs.extreme-addons.com/manual/extreme-pbr-tag-and-material/#3-3-tag-and-material-options-info-material",
-			"MATERIAL_LIST_SECTION": "https://docs.extreme-addons.com/manual/material-list-section/#material-list-section",
+			"MATERIAL_LIST_SECTION": "https://docs.extreme-addons.com/manual/extreme-pbr-list-selection/",
 			"MATERIAL_TAG_POPUP": "https://docs.extreme-addons.com/manual/extreme-pbr-tag-and-material/#3-5-tag-and-material-options-edit-tags",
 			"MICRODISPLACE_MENU": "https://docs.extreme-addons.com/manual/extreme-pbr-displace/#11-0-displacement-mircodisplacement",
 			"NODE_UTILITY_MENU": "https://docs.extreme-addons.com/manual/cu-node-utility/",
