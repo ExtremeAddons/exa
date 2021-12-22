@@ -1,4 +1,8 @@
 {
+	"communications": {
+		"install_lib_mex": "If there are any slowness issues, try disconnecting the VPN if you are using it. We are also looking to buy more servers around the world to improve performance. Thank you for the support. Andrew_D",
+		"emergency": "test"
+	},
 	"workinprogressblock": {
 		"lock_operators": [
 			""
@@ -6,6 +10,182 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.127": {
+			"date": "19-12-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "BugFix - Save Material Preview Icons",
+					"description": "It was impossible to change the type of Previews icon, and also the background for the lighting. We fixed it."
+				},
+				"2": {
+					"title": "Improved - Get Register Button",
+					"description": "We have added a modal and a progress bar to not freeze the interface while getting the library list."
+				},
+				"3": {
+					"title": "Improved - Create Library Structure",
+					"description": "We have added a modal for creating the library structure. A progress bar has also been added. This no longer freezes the Blender interface"
+				},
+				"4": {
+					"title": "Added - Installed Library Percentage",
+					"description": "Added a status bar on the installation of the entire library. Viewable in Options. It is used to see how much of the online library has been installed."
+				},
+				"5": {
+					"title": "Fix - Problem 'License in use on another computer'",
+					"description": "This annoying problem has been solved. The problem was on computers with multiple network cards or with WiFi and Lan connections. It can now store up to 3 different computer configurations. You will need to perform a Device Reset to take effect!"
+				}
+			}
+		},
+		"4.0.126": {
+			"date": "10-12-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": true,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "BugFix - SSL Certificate Verify",
+					"description": "We changed the SSL certificates, so the installer should work better now. Some were having problems with increasing response time to our server because of this. Please install this version"
+				},
+				"2": {
+					"title": "Improved - Helps Text",
+					"description": "Added some more help messages for beginners."
+				}
+			}
+		},
+		"4.0.125": {
+			"date": "08-12-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "BugFix - Save Material with FX",
+					"description": "An error was shown when saving the complete material with FX Module and made it impossible to save a material with an Fx Layer inside it"
+				},
+				"2": {
+					"title": "Improved - Check Updates Panel",
+					"description": "New buttons to show or hide all update details"
+				},
+				"3": {
+					"title": "BugFix - Search Image From Texture Manager Panel",
+					"description": "The search for images was aborted if an image did not actually exist. This was due to a preview error, as it did not exist."
+				},
+				"4": {
+					"title": "BugFix - Bake",
+					"description": "An error was shown on occasion when attempting to bake an object whose name contained an underscore. We solved by unlinking this process from the object name. This happened in the assignment of the Baked maps at the moment of insertion in the Textures nodes."
+				},
+				"4": {
+					"title": "Improved - License Check",
+					"description": "A 36 character license length check was added, many users were confused about which license to enter. This additional check indicates if the license entered is not of the correct length."
+				},
+				"5": {
+					"title": "Improved - Extreme Addons License Help Buttons ",
+					"description": "We added 2 Helps buttons in the Extreme Addons tab, during the addon activation phase, some users had no idea how to continue. These 2 new buttons lead to some useful pages of extreme-addons website."
+				},
+				"5": {
+					"title": "Fix - Image lost data (has_data API)",
+					"description": "Officially, Blender 3.0.0 has an API bug. So it is no longer possible to check if the texure is still connected on the disk. We have made a temporary system that checks that the textures are still linked to the file. Only if the textures are not Packed"
+				}
+			}
+		},
+		"4.0.124": {
+			"date": "05-12-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "SSL Certificate Problem Blender 3.0",
+					"description": "On Blender 3.0 we encountered problems with connection certificates to our server. This made it impossible to connect again to download the libraries. We have now fixed this. If you are unable to update with Update core. You will need to download the addon from the MarketPlace you purchased it from and replace it."
+				}
+			}
+		},
+		"4.0.123": {
+			"date": "04-12-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Fixed - Bake with Smart Projection",
+					"description": "We noticed that Bake remained with a smart projection, while programming Extreme PBR we had escaped to disable Smart Projection during Bake, this did Bake objects with a new smart mapping. This was awful, and we had forgotten it turned on. Now the Bake will use the user's active UV mapping. We thank our very scrupulous user for this report."
+				},
+				"2": {
+					"title": "Fixed - Fx Layer Decals Bug",
+					"description": "The mask used when applying a decal FX Layer was not placed correctly on the Alpha map, and therefore the result was an unexpected transparency. Now this has been fixed, and the Alpha map will act as a Mask map, as it was originally meant to be."
+				},
+				"3": {
+					"title": "Fixed - Fx Layer",
+					"description": "The Alpha texture was disconnected from the Mapping node, so it was impossible to scale it along with the entire FX Layer. Now solved"
+				},
+				"4": {
+					"title": "Added - Bake Device Selection",
+					"description": "Added choice for Bake (Cpu-Gpu)"
+				}
+			}
+		},
+		"4.0.122": {
+			"date": "29-11-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Fixed - Bug on Bake",
+					"description": "When trying to bake an object with multiple maps, with the Normal map mode active, it gave an error. It is now solved."
+				},
+				"2": {
+					"title": "Added - New text Box into installer",
+					"description": "A new box for communication texts during installation of libraries has been added."
+				},
+				"3": {
+					"title": "Added - Debug Checkbox for installer stats",
+					"description": "A new button to show more statistics during installation has been added in the Options menu."
+				}
+			}
+		},
+		"4.0.121": {
+			"date": "26-11-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Fixed - Bug on Search Module/Fx Button",
+					"description": "When trying to search for a Module or a Layer Fx, using the small buttons (m) and (fx), an error appeared and made it impossible to replace. Resolved"
+				}
+			}
+		},
 		"4.0.120": {
 			"date": "24-11-2021",
 			"name": "Extreme PBR",
