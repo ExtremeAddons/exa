@@ -1,7 +1,7 @@
 {
 	"communications": {
 		"install_lib_mex": "If there are any slowness issues, try disconnecting the VPN if you are using it. We are also looking to buy more servers around the world to improve performance. Thank you for the support. Andrew_D",
-		"emergency": "test"
+		"emergency_message": "test"
 	},
 	"workinprogressblock": {
 		"lock_operators": [
