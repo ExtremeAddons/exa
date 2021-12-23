@@ -1,7 +1,7 @@
 {
 	"communications": {
-		"install_lib_mex": "If there are any slowness issues, try disconnecting the VPN if you are using it.  We are also looking to buy more servers around the world to improve performance. Thank you for the support. Andrew_D",
-		"emergency_message": "Please Note: requires a free registration on our new site: https://extreme-addons.com/    There are currently slow library download problems with Blender 3.0. It is recommended to install Extreme PBR on Blender 2.93 and download libraries with it. You can also link the libraries on Blender 3.0 at a later time to save download time For any questions, contact me Andrew"
+		"install_lib_mex": "If there are any slowness issues, try disconnecting the VPN if you are using it. We are also looking to buy more servers around the world to improve performance. Thank you for the support. Andrew_D",
+		"emergency": "Sperando di fornire anche in questo un utile strumento d’indagine, forniamo ai nostri lettori l’elenco dei passi della Commedia che ritraggono personaggi del mito troiano. In alcuni casi, come rilevato nelle ricerche particolari, appare evidente che il divino poeta, che non conosceva direttamente Omero, ha usato come fonti opere tardolatine e medievali accanto a quelle classiche. Virgilio, Ovidio, Igino e Stazio sono naturalmente gli autori prediletti. Approfondimenti particolari vengono citati con l’eventuale link sul sito, mentre il nome del personaggio rinvia alle note di mitologia."
 	},
 	"workinprogressblock": {
 		"lock_operators": [
@@ -10,6 +10,38 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.128": {
+			"date": "20-12-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Improved - Access Data Stored",
+					"description": "A new folder will be created with the right credentials to ensure that the last correct credentials with which the addon was activated are always available, in case of update."
+				},
+				"2": {
+					"title": "Fix - Message Incompatibility with Beta-Alpha Version",
+					"description": "Fixed Incompatibility with Beta-Alpha Version Message"
+				},
+				"3": {
+					"title": "Improved - Keep track of libraries",
+					"description": "Now the addon keeps track of where the libraries are, automatically recognizes the paths (if they still exist) useful for multiple installations of Extreme PBR on various versions of Blender"
+				},
+				"4": {
+					"title": "Improved - Added first boot message System",
+					"description": "At the first launch of Extreme PBR, a message may be displayed with the important news of the update"
+				},
+				"5": {
+					"title": "Improved - Added a FAQs Operator",
+					"description": "Now in 3 different parts of the addon there is a FAQs button, directly linked to our site."
+				}
+			}
+		},
 		"4.0.127": {
 			"date": "19-12-2021",
 			"name": "Extreme PBR",
