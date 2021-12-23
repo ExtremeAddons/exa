@@ -1,7 +1,7 @@
 {
 	"communications": {
 		"install_lib_mex": "If there are any slowness issues, try disconnecting the VPN if you are using it. We are also looking to buy more servers around the world to improve performance. Thank you for the support. Andrew_D",
-		"emergency_message": "Please Note: requires a free registration on our new site: *https://extreme-addons.com/ There are currently slow library download problems with Blender 3.0. It is recommended to install Extreme PBR on Blender 2.93 and download libraries with it. You can also link the libraries on Blender 3.0 at a later time to save download time For any questions, contact me Andrew"
+		"emergency_message": "Please Note: requires a free registration on our new site: https://extreme-addons.com/ There are currently slow library download problems with Blender 3.0. It is recommended to install Extreme PBR on Blender 2.93 and download libraries with it. You can also link the libraries on Blender 3.0 at a later time to save download time For any questions, contact me Andrew"
 	},
 	"workinprogressblock": {
 		"lock_operators": [
