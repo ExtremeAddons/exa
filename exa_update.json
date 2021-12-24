@@ -1,7 +1,7 @@
 {
 	"communications": {
 		"install_lib_mex": "If there are any slowness issues, try disconnecting the VPN if you are using it. We are also looking to buy more servers around the world to improve performance. Thank you for the support. Andrew_D",
-		"emergency": "Sperando di fornire anche in questo un utile strumento d’indagine, forniamo ai nostri lettori l’elenco dei passi della Commedia che ritraggono personaggi del mito troiano. In alcuni casi, come rilevato nelle ricerche particolari, appare evidente che il divino poeta, che non conosceva direttamente Omero, ha usato come fonti opere tardolatine e medievali accanto a quelle classiche. Virgilio, Ovidio, Igino e Stazio sono naturalmente gli autori prediletti. Approfondimenti particolari vengono citati con l’eventuale link sul sito, mentre il nome del personaggio rinvia alle note di mitologia."
+		"emergency": ""
 	},
 	"workinprogressblock": {
 		"lock_operators": [
@@ -11,11 +11,11 @@
 	},
 	"updates": {
 		"4.0.128": {
-			"date": "20-12-2021",
+			"date": "24-12-2021",
 			"name": "Extreme PBR",
 			"edition": "Nexus",
 			"url": false,
-			"urgency": false,
+			"urgency": true,
 			"lock_operators": [
 				""
 			],
@@ -37,8 +37,12 @@
 					"description": "At the first launch of Extreme PBR, a message may be displayed with the important news of the update"
 				},
 				"5": {
-					"title": "Improved - Added a FAQs Operator",
-					"description": "Now in 3 different parts of the addon there is a FAQs button, directly linked to our site."
+					"title": "Improved - Improved the fluidity of the interface",
+					"description": "Improved the fluidity of the interface, now the panels in general are more fluid with less 'Lag'. We will continue to try to improve fluidity with future releases as well."
+				},
+				"6": {
+					"title": "Improved - Increased the timeout",
+					"description": "We have raised the timeout threshold to improve the download while the user is not at the computer. Translated, there is less risk of the download stopping while it is downloading by itself. We are still trying to improve the speed service."
 				}
 			}
 		},
