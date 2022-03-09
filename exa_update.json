@@ -10,6 +10,98 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.130": {
+			"date": "09-03-2022",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "BuxFix - No Preview in data image list",
+					"description": "No Preview for the images in the list in the generation of normal maps and into search data images (Ops). We fixed it."
+				},
+				"2": {
+					"title": "Improved - Reprojection button on Fx Layer Menu",
+					"description": "Added a Re-project button on Fx Layer Menu. This button was only present in the inter-module painting."
+				},
+				"3": {
+					"title": "Improved - FAQs Button",
+					"description": "A FAQs button has been added in some parts of the addon. It will also be accessible by pressing the Helps button in the Main interface"
+				},
+				"4": {
+					"title": "Fixed - ShaderMaker Paint Error",
+					"description": "Error when trying to add a Shadermaker Paint to a Curve object"
+				},
+				"5": {
+					"title": "Fixed - Bake Error for Glass",
+					"description": "An error arose when some materials such as Glass were tempted to Bake. This is because if you tried to Bake the Normal map of the Glass, since there was no normal map, the addon tried to connect the Normal node (Which in this case did not exist) to the BSDF node during the bake. We have put an exception in the Links function which raises an exception in case the links cannot be created."
+				},
+				"5": {
+					"title": "Added-Fixed - Create New UV Map added into Bake editor",
+					"description": "After a few Bake reports, we have found a solution to Bake so that if the object does not have a correct UV mapping, you can choose to Create a new UV map. It will be projected with the Blender Pack Islands system. While previously a Smart Projection method was used, which did not meet the need, we had provisionally removed it, but many inexperienced users were expecting immediate Bake without having to change the UV mapping (Rightly so). We think this is my best method for now. Looking forward to new features"
+				},
+				"6": {
+					"title": "Fixed - Error when UV Maps are 8-slot",
+					"description": "Blender has a limit of 8 UV Layers, so we had an Error when some Operators gave Error if the UV Layers were 8. An additional check has been added, and a message will be shown if this happens"
+				},
+				"7": {
+					"title": "improvement - Bake improvement",
+					"description": "The bake has been improved. Now you can do 3 different types of Bake. It is now also possible to bake non-Extreme PBR materials. The three types are 1 - Bake Based on BSDF Principled Materials. 2 - Classic Bake by Cycles. 3 - Classic Bake Combined by Cycles. Everything is ready to bake in just a few steps. In addition Previously in Bake we used a Smart Projection, but it was not a good idea, now we use the PackIsland method, this greatly improves the output uv mapping."
+				},
+				"8": {
+					"title": "improvement - Texture Browser Addes",
+					"description": "In the material shader editor you can now access the new Texture Browser menu. All textures present in Extreme PBR can now be searched through this menu, and added directly to a Texture Image node in the node tree"
+				},
+				"9": {
+					"title": "improvement - Panel Builder Helper",
+					"description": "The Panel Builder Helper has now been improved. It turns out cleaner and less confusing. A Socket slot viewer has also been added."
+				},
+				"10": {
+					"title": "improvement - Simple PBR material options Added",
+					"description": "Now it is possible to create simple PBR materials, without Nexus node tree, so as to create a Base node tree, which you can modify at will. PLEASE NOTE: it is not possible to paint over it for the moment or add a fx layer. if you want to do this you have to use Nexus materials!"
+				},
+				"11": {
+					"title": "improvement - Painter",
+					"description": "Now the default Painter shows all the maps turned off (Mute), except the diffuse one. This is to avoid problems on the Macintosh Users, as Macintosh does not currently support many textures on the same material"
+				},
+				"12": {
+					"title": "Provisional Patch- Texture Limiter",
+					"description": "Due to limitations on Mac systems, as it is known that there is a maximum number of textures on a single material, and it is very limited. A function has been added that recognizes if the computer is a Mac System. So it automatically limits the use of textures on materials, so you can mix more of them. This is a momentary patch pending Vulkan on Blender API, hopefully they will be added as soon as possible, this is a limitation for Macintosh users."
+				},
+				"13": {
+					"title": "improvement - Old Extreme PBR (Combo-Evo) panel properties",
+					"description": "Now, in the panel it is possible to return to view the sliders of the old Extreme PBR (Combo-Evo) materials, it is not identical to before, but it is quite similar."
+				},
+				"14": {
+					"title": "improvement - Slider On the Extreme PBR panel",
+					"description": "If you are using a material based on a Principled BSDF node connected directly to the output, you can now view the sliders in the Extreme PBR panel. If the inputs of the Principled BSDF are connected, the sliders of the node from which they are connected will also be shown (Both Normal Node and Group node)"
+				},
+				"16": {
+					"title": "bug fix- Add Material From User Library",
+					"description": "An error occurs when the material is applied, this did not compromise the correct functioning, but it was very annoying. Fixed"
+				}
+			}
+		},
+		"4.0.129": {
+			"date": "30-12-2021",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "BuxFix - Expansion Libraries",
+					"description": "We have fixed some errors in the management of Expansion Libraries."
+				}
+			}
+		},
 		"4.0.128": {
 			"date": "24-12-2021",
 			"name": "Extreme PBR",
