@@ -10,6 +10,38 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.131": {
+			"date": "10-04-2022",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "BuxFix - Search material Grease Pencil Error",
+					"description": "When trying to add a grease pencil material (From project material list) an error was shown. Has been solved."
+				},
+				"2": {
+					"title": "BuxFix - ColorSpace Error, with ACES OCIO",
+					"description": "This is not really a good FIX, but there is a warning message, if the user uses ACES expansions, it is reported that it is not possible to set the sRGB or Non-Color color space correctly, for now it is a sort of Patch , we are studying a better fix for this situation. For now, the error will be avoided and consequently the interruption of the Extreme PBR operators will be avoided"
+				},
+				"3": {
+					"title": "BuxFix - Painter Problem with erase",
+					"description": "While painting, the Strength Slider did not work in the texture manager, making it impossible to adjust the Black and White (Strength) of the paint, which also made it impossible to erase the paint just made."
+				},
+				"4": {
+					"title": "BuxFix And Improved - BSDF Bake Type",
+					"description": "There was a problem with BSDF bake mode, if for example no node was connected to the BSDF input to bake, (for example Base Color), the result was completely wrong. Now to overcome this, a Node (Fake Map) is created which simulates itself. In case of firing an RGB Socket, an RGB node is created and connected to Base Color, then rendered. If it were the cooking of a socket of type Value, a Node Value type is created, in order to make a Bake always connecting it to the Bsdf Base Color socket. This is essential if there are different materials on the same object, especially if they are materials without any links connected to the inputs of the BSDF node and you intend to bake them too."
+				},
+				"5": {
+					"title": "Improved - Bake Flip X Axis",
+					"description": "Improvement for bake with Export FBX, especially for Unreal Engine, as the Unreal Engine's Global axes are different from those of Blender, If you check the Flip X Axis checkbox before doing the Bake (Activating Export FBX Object) , it will be possible to try to flip the X axes, in order to have the object as it is in Unreal. This setting is currently experimental, so it needs user feedback. If you are having trouble, uncheck this box"
+				}
+			}
+		},
 		"4.0.130": {
 			"date": "09-03-2022",
 			"name": "Extreme PBR",
