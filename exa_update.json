@@ -67,6 +67,10 @@
 				"11": {
 					"title": "BugFix for Blender 3.2 - Material Previews form Search material list",
 					"description": "The icons of the materials listed in the Search Material were no longer loaded correctly in Blender 3.2. They will now load correctly."
+				},
+				"12": {
+					"title": "Added - Material Override (Experimental)",
+					"description": "Material Override, overrides for a view on the fly, all the materials of the selected objects. It makes use of the Geometry Nodes System. It is very quick to change material, unlike Shader Overlay. The phase is still experimental, they await feedback from users"
 				}
 			}
 		},
