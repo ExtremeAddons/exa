@@ -1,6 +1,6 @@
 {
 	"communications": {
-		"install_lib_mex": "If there are any slowness issues, try disconnecting the VPN if you are using it. We are also looking to buy more servers around the world to improve performance. Thank you for the support. Andrew_D",
+		"install_lib_mex": "If there are any slowness issues, try disconnecting the VPN if you are using it. We will shortly intervene on the API of our Site, to improve the download speed. Thank you for the support. Andrew_D",
 		"emergency": ""
 	},
 	"workinprogressblock": {
@@ -10,6 +10,66 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.200": {
+			"date": "14-07-2022",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "BuxFix - RGBA Error During the Bake",
+					"description": "During the Bake, if the scene was set to a movie (Like MP4) or an image that did not allow the Alpha channel, you would get an error like this: Cannot set RGBA in color_mode, the script stopped, it was necessary to set an image also PNG to avoid the error. Now this has been fixed"
+				},
+				"2": {
+					"title": "Added - Shader Overlay (Experimental)",
+					"description": "This new feature allows you to apply a material to all selected objects, plus there is also a Gradient mixer to adjust the mix position of the material in the Overlay. Useful for presentations with Blueprinting or the overlay of material with special effect"
+				},
+				"3": {
+					"title": "Change - Normal and Bump Node",
+					"description": "Now the Normal and Bump Node are no longer in a group node. This is to eventually save resources. The nodes are interactive and are connected only if really needed"
+				},
+				"4": {
+					"title": "Improved - Get Library Register",
+					"description": "Multithreading support added, now the interface no longer freezes when using the 'Get The Register' button"
+				},
+				"5": {
+					"title": "Improved - Create Library Structure",
+					"description": "Multithreading support added."
+				},
+				"6": {
+					"title": "Fixed - Create Library Structure",
+					"description": "Multithreading support added."
+				},
+				"7": {
+					"title": "Improved - Installer And Server Api",
+					"description": "With this version the installation of the materials happens faster, due to the API change of our server. Now the calls are much less, and we have a cleaner data flow. Older versions will still work on the site's old APIs, but it is recommended that you update the addon"
+				},
+				"8": {
+					"title": "Improved - Material Installer Multithreading",
+					"description": "Multithreading was added for library download. now you can continue to use Blender, without having to open another Blender to continue working while downloading materials"
+				},
+				"9": {
+					"title": "Added - Material Override (Experimental)",
+					"description": "This features allows you to override on the fly all the materials of the selected objects, with the chosen material. Makes use of Geometry Nodes to temporarily replace materials. It is very similar to the Overlay shader, but it is much faster, as it only uses 1 material on all objects."
+				},
+				"9": {
+					"title": "Improved - First Installation Interface",
+					"description": "The first install interface has been improved to make it less confusing. Now the steps are drawn separately with Back-Next buttons to easily continue the installation without too much confusion as in the previous version."
+				},
+				"10": {
+					"title": "Improved - Force reload Preview Material Icons",
+					"description": "We have found that in Blender 3.2 some times the material preview icons are not loading correctly. I inserted a button to force reload the preview of the icons. It is now located in the Box, Tag and material options Panel, just below the Material Preview."
+				},
+				"11": {
+					"title": "BugFix for Blender 3.2 - Material Previews form Search material list",
+					"description": "The icons of the materials listed in the Search Material were no longer loaded correctly in Blender 3.2. They will now load correctly."
+				}
+			}
+		},
 		"4.0.131": {
 			"date": "10-04-2022",
 			"name": "Extreme PBR",
@@ -499,7 +559,7 @@
 			}
 		},
 		"4.0.111": {
-			"date": "29-11-2021",
+			"date": "29-10-2021",
 			"name": "Extreme PBR",
 			"edition": "Nexus",
 			"url": false,
@@ -511,10 +571,6 @@
 				"1": {
 					"title": "Fixed Bake Error",
 					"description": "We fixed the API error about tile_x / tile_y, as these bees in Blender 3.0 have changed."
-				},
-				"2": {
-					"title": "No More News",
-					"description": "#"
 				}
 			}
 		}
