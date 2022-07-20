@@ -10,6 +10,30 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.201": {
+			"date": "19-07-2022",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "BuxFix - Error during Save material",
+					"description": "On some operating systems, an error was encountered during the Save Material process. the Preview function did not return the name of the material contained in it."
+				},
+				"2": {
+					"title": "BuxFix - Bake Alpha Image",
+					"description": "Bake Alpha In separate texture, it had a bug about the name. In the function, a variable was set to the object and not to the name"
+				},
+				"3": {
+					"title": "BugFix - Save Material",
+					"description": "On some occasions, during the Save Material, an error could occur, this error was in case the material contained a Packed image from another file, then the unpack method (method = USE_ORIGINAL) function, did not work. I put an exception with the unpack method (method = USE_LOCAL) This solved the problem"
+				}
+			}
+		},
 		"4.0.200": {
 			"date": "19-07-2022",
 			"name": "Extreme PBR",
