@@ -10,6 +10,22 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.202": {
+			"date": "19-07-2022",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "BuxFix - Mircodisplacement Not Work",
+					"description": "An oversight was left behind. The function to update the displacement (On Off) of the microdisplacement, had not been replaced with the new one. I proceeded to insert the new function, as the system of nodes (Normal, Bump, Displacement) has changed slightly in this version."
+				}
+			}
+		},
 		"4.0.201": {
 			"date": "19-07-2022",
 			"name": "Extreme PBR",
