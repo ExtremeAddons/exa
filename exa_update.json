@@ -10,6 +10,26 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.2023": {
+			"date": "11-11-2022",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "BuxFix - Bake Error CopyAttributes",
+					"description": "Error in copying scene attributes on some occasions. For now it has been solved using the try-except method."
+				},
+				"2": {
+					"title": "Path - Black Material",
+					"description": "Opening old projects in Blender 3.3 version the Separate RGB and Combine RGB node were not recognized. So a small feature was created that arranges the black materials. The button will be located in Extreme PBR's Options, and is called Adjust All material Node Tree. It was already present in previous versions, but a new function has been added in addition to the other previous ones."
+				}
+			}
+		},
 		"4.0.202": {
 			"date": "19-07-2022",
 			"name": "Extreme PBR",
@@ -617,6 +637,9 @@
 					"description": "We fixed the API error about tile_x / tile_y, as these bees in Blender 3.0 have changed."
 				}
 			}
+		},
+		"": {
+
 		}
 	}
 }
