@@ -10,7 +10,7 @@
 		"description": ""
 	},
 	"updates": {
-		"4.0.2023": {
+		"4.0.203": {
 			"date": "11-11-2022",
 			"name": "Extreme PBR",
 			"edition": "Nexus",
@@ -21,12 +21,12 @@
 			],
 			"descriptions": {
 				"1": {
-					"title": "BuxFix - Bake Error CopyAttributes",
+					"title": "BuxFix - Bake Error Copy Attributes",
 					"description": "Error in copying scene attributes on some occasions. For now it has been solved using the try-except method."
 				},
 				"2": {
 					"title": "Path - Black Material",
-					"description": "Opening old projects in Blender 3.3 version the Separate RGB and Combine RGB node were not recognized. So a small feature was created that arranges the black materials. The button will be located in Extreme PBR's Options, and is called Adjust All material Node Tree. It was already present in previous versions, but a new function has been added in addition to the other previous ones."
+					"description": "Opening old projects in Blender 3_3 version the Separate RGB and Combine RGB node were not recognized. So a small feature was created that arranges the black materials. The button will be located in Extreme PBRs Options, and is called Adjust All material Node Tree. It was already present in previous versions, but a new function has been added in addition to the other previous ones."
 				}
 			}
 		},
@@ -113,10 +113,6 @@
 					"description": "Multithreading was added for library download. now you can continue to use Blender, without having to open another Blender to continue working while downloading materials"
 				},
 				"9": {
-					"title": "Added - Material Override (Experimental)",
-					"description": "This features allows you to override on the fly all the materials of the selected objects, with the chosen material. Makes use of Geometry Nodes to temporarily replace materials. It is very similar to the Overlay shader, but it is much faster, as it only uses 1 material on all objects."
-				},
-				"9": {
 					"title": "Improved - First Installation Interface",
 					"description": "The first install interface has been improved to make it less confusing. Now the steps are drawn separately with Back-Next buttons to easily continue the installation without too much confusion as in the previous version."
 				},
@@ -191,10 +187,6 @@
 				"4": {
 					"title": "Fixed - ShaderMaker Paint Error",
 					"description": "Error when trying to add a Shadermaker Paint to a Curve object"
-				},
-				"5": {
-					"title": "Fixed - Bake Error for Glass",
-					"description": "An error arose when some materials such as Glass were tempted to Bake. This is because if you tried to Bake the Normal map of the Glass, since there was no normal map, the addon tried to connect the Normal node (Which in this case did not exist) to the BSDF node during the bake. We have put an exception in the Links function which raises an exception in case the links cannot be created."
 				},
 				"5": {
 					"title": "Added-Fixed - Create New UV Map added into Bake editor",
@@ -369,16 +361,8 @@
 					"description": "The search for images was aborted if an image did not actually exist. This was due to a preview error, as it did not exist."
 				},
 				"4": {
-					"title": "BugFix - Bake",
-					"description": "An error was shown on occasion when attempting to bake an object whose name contained an underscore. We solved by unlinking this process from the object name. This happened in the assignment of the Baked maps at the moment of insertion in the Textures nodes."
-				},
-				"4": {
 					"title": "Improved - License Check",
 					"description": "A 36 character license length check was added, many users were confused about which license to enter. This additional check indicates if the license entered is not of the correct length."
-				},
-				"5": {
-					"title": "Improved - Extreme Addons License Help Buttons ",
-					"description": "We added 2 Helps buttons in the Extreme Addons tab, during the addon activation phase, some users had no idea how to continue. These 2 new buttons lead to some useful pages of extreme-addons website."
 				},
 				"5": {
 					"title": "Fix - Image lost data (has_data API)",
@@ -637,9 +621,6 @@
 					"description": "We fixed the API error about tile_x / tile_y, as these bees in Blender 3.0 have changed."
 				}
 			}
-		},
-		"": {
-
 		}
 	}
 }
