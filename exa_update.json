@@ -10,6 +10,31 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.204": {
+			"date": "26-12-2022",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Patch For Black Material (Combine/Separate RGB)",
+					"description": "With the new Blender 3.3 the Separate/Combine RGB node has changed, so if you open the project in Blender 3.3 or higher and save the project to then return to a previous version, the Combine/Separate RGB node is no longer recognized. I made a second patch to better solve this problem"
+				},
+
+				"2": {
+					"title": "Patch - For Black Material Mix RGB",
+					"description": "The previous patch, now in Blender 3.4 creates confusion, as the Mix RGB node, is now also changed. This patch should solve the problem of Black materials with a Mix RGB not recognized, or a Mix node (New) changed by the previous patch."
+				},
+				"3": {
+					"title": "Added - Reload Mixers Nodes",
+					"description": "Added a button (Into Options) to reload the Mixers nodes, in case of problems with the Mixers nodes, or if you want to reload the Mixers nodes, without in only one click."
+				}
+			}
+		},
 		"4.0.203": {
 			"date": "11-11-2022",
 			"name": "Extreme PBR",
@@ -25,7 +50,7 @@
 					"description": "Error in copying scene attributes on some occasions. For now it has been solved using the try-except method."
 				},
 				"2": {
-					"title": "Path - Black Material",
+					"title": "Patch - Black Material",
 					"description": "Opening old projects in Blender 3_3 version the Separate RGB and Combine RGB node were not recognized. So a small feature was created that arranges the black materials. The button will be located in Extreme PBRs Options, and is called Adjust All material Node Tree. It was already present in previous versions, but a new function has been added in addition to the other previous ones."
 				}
 			}
@@ -41,7 +66,7 @@
 			],
 			"descriptions": {
 				"1": {
-					"title": "BuxFix - Mircodisplacement Not Work",
+					"title": "BuxFix - Mirco-displacement Not Work",
 					"description": "An oversight was left behind. The function to update the displacement (On Off) of the microdisplacement, had not been replaced with the new one. I proceeded to insert the new function, as the system of nodes (Normal, Bump, Displacement) has changed slightly in this version."
 				}
 			}
@@ -177,7 +202,7 @@
 					"description": "No Preview for the images in the list in the generation of normal maps and into search data images (Ops). We fixed it."
 				},
 				"2": {
-					"title": "Improved - Reprojection button on Fx Layer Menu",
+					"title": "Improved - Re-projection button on Fx Layer Menu",
 					"description": "Added a Re-project button on Fx Layer Menu. This button was only present in the inter-module painting."
 				},
 				"3": {
@@ -201,7 +226,7 @@
 					"description": "The bake has been improved. Now you can do 3 different types of Bake. It is now also possible to bake non-Extreme PBR materials. The three types are 1 - Bake Based on BSDF Principled Materials. 2 - Classic Bake by Cycles. 3 - Classic Bake Combined by Cycles. Everything is ready to bake in just a few steps. In addition Previously in Bake we used a Smart Projection, but it was not a good idea, now we use the PackIsland method, this greatly improves the output uv mapping."
 				},
 				"8": {
-					"title": "improvement - Texture Browser Addes",
+					"title": "improvement - Texture Browser Added",
 					"description": "In the material shader editor you can now access the new Texture Browser menu. All textures present in Extreme PBR can now be searched through this menu, and added directly to a Texture Image node in the node tree"
 				},
 				"9": {
@@ -366,7 +391,7 @@
 				},
 				"5": {
 					"title": "Fix - Image lost data (has_data API)",
-					"description": "Officially, Blender 3.0.0 has an API bug. So it is no longer possible to check if the texure is still connected on the disk. We have made a temporary system that checks that the textures are still linked to the file. Only if the textures are not Packed"
+					"description": "Officially, Blender 3.0.0 has an API bug. So it is no longer possible to check if the texture is still connected on the disk. We have made a temporary system that checks that the textures are still linked to the file. Only if the textures are not Packed"
 				}
 			}
 		},
