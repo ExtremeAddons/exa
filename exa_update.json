@@ -10,6 +10,22 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.205": {
+			"date": "30-12-2022",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Bug Fix - They don't show the properties",
+					"description": "With the advent of Blender 3.4 the RGB Mix node has changed, so also some functions that referred to it, no longer worked. I added a check that understands if the node is MixRGB or Mix, as the number of inputs in the Mix node has increased, and this made it unrecognizable."
+				}
+			}
+		},
 		"4.0.204": {
 			"date": "26-12-2022",
 			"name": "Extreme PBR",
