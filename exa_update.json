@@ -10,6 +10,22 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.206": {
+			"date": "10-05-2023" ,
+			"name": "Extreme PBR" ,
+			"edition": "Nexus" ,
+			"url": false ,
+			"urgency": false ,
+			"lock_operators": [
+				""
+			] ,
+			"descriptions": {
+				"1": {
+					"title": "Patch - Previews Disappear into Blender 3.6 alpha" ,
+					"description": "Using Blender 3.6 Alpha, for some reason it damages the preview images of the materials, once damaged, not even using another version of Blender will be displayed correctly. I added a button in Options (Patch Preview) that should solve the problem by regenerating the previews that are no longer displayed"
+				}
+			}
+		},
 		"4.0.205": {
 			"date": "30-12-2022",
 			"name": "Extreme PBR",
