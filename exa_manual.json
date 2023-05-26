@@ -17,6 +17,7 @@
 			"CREATOR_UTIL_OPS": "https://docs.extreme-addons.com/manual/cu-library-creator-utility/",
 			"DISPLACE_MENU": "https://docs.extreme-addons.com/manual/extreme-pbr-displace/",
 			"DYNAMIC_MASK": "https://docs.extreme-addons.com/manual/extreme-pbr-fx-layer/#8-2-fx-layer-dynamic-mask",
+			"DOCS": "https://extreme-pbr-docs.readthedocs.io/en/latest/",
 			"FX_MODULE_LAYER": "https://docs.extreme-addons.com/manual/extreme-pbr-fx-layer/#8-1-fx-layer",
 			"IMAGE_BOX_VIEWER": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse",
 			"INSTALL_STEP_1": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-7-installation-step-1",
@@ -52,6 +53,7 @@
 			"TEXTURE_MANAGER_IMAGE_CTRL": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-5-material-group-transparent",
 			"TEXTURE_MANAGER_INDIVIDUAL_VECTORS": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-5-material-group-transparent",
 			"TEXTURE_PAINT_MIX_MODULE": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-0-material-group-texture-paint",
+			"TUTORIAL_PLAYLIST": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html",
 			"UNRECOGNIZED_MATERIAL": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-18-material-group-unrecognized-material",
 			"UPDATE_CORE": "https://docs.extreme-addons.com/manual/extreme-pbr-social-update/#10-11-social-updates-update-core"
 		}
