@@ -10,6 +10,23 @@
 		"description": ""
 	},
 	"updates": {
+		"4.0.207": {
+			"date": "05-07-2023" ,
+			"name": "Extreme PBR" ,
+			"edition": "Nexus" ,
+			"url": false ,
+			"urgency": false ,
+			"lock_operators": [
+				""
+			] ,
+			"descriptions": {
+				"1": {
+					"title": "Patch - Stuck during the material download phase",
+					"description": "During the download phase an error was raised during the execution of os.remove() of the file 'exa_files.json' this blocked the dowload. Now an exception in case 'exa_files.json' does not exist, no longer raises errors as it is checked with os.path.isfile ()"
+				}
+			}
+		},
+
 		"4.0.206": {
 			"date": "10-05-2023" ,
 			"name": "Extreme PBR" ,
