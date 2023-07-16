@@ -1,63 +1,179 @@
 {
-	"manual": {
-		"manual_urls": {
-			"ADDON_ACTIVATION": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-7-installation-step-1",
-			"ADD_FX_BUTTON": "https://docs.extreme-addons.com/manuals-content/8-1-fx-layer/",
-			"ADD_REMOVE_REPLACE": "https://docs.extreme-addons.com/manual/extreme-pbr-add-remove-replace-material/",
-			"ADJUST_NODE_TREE": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-11-material-group-adjust-node-tree",
-			"ASSIGN_AND_SELECT": "https://docs.extreme-addons.com/manual/extreme-pbr-add-remove-replace-material/#4-4-add-remove-replace-material-assign-mat-select-by-material",
-			"BAKE_MENU": "https://docs.extreme-addons.com/manual/bake-editor/",
-			"BOX_UTILITY_1": "https://docs.extreme-addons.com/manual/extreme-pbr-box-utility/",
-			"COLOR_LAB": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-2-material-group-color-system",
-			"CREATOR_GROUP_INPUTS_JSON": "https://docs.extreme-addons.com/manual/cu-library-creator-utility/#cu-7-0-group-inputs-json",
-			"CREATOR_INTERFACE_TOP": "https://docs.extreme-addons.com/manual/creator-interface-top-operators",
-			"CREATOR_JSON_OPS": "https://docs.extreme-addons.com/manual/cu-creator-json-ops/",
-			"CREATOR_MAT_INFO_JSON": "https://docs.extreme-addons.com/manual/material-info-json-fields/",
-			"CREATOR_MAT_SETTINGS_JSON": "https://docs.extreme-addons.com/manual/cu-material-settings/",
-			"CREATOR_UTIL_OPS": "https://docs.extreme-addons.com/manual/cu-library-creator-utility/",
-			"DISPLACE_MENU": "https://docs.extreme-addons.com/manual/extreme-pbr-displace/",
-			"DYNAMIC_MASK": "https://docs.extreme-addons.com/manual/extreme-pbr-fx-layer/#8-2-fx-layer-dynamic-mask",
-			"DOCS": "https://extreme-pbr-docs.readthedocs.io/en/latest/",
-			"FAQS": "https://extreme-pbr-docs.readthedocs.io/en/latest/faqs.html",
-			"HOW_TO_REPORT_A_BUG": "https://extreme-pbr-docs.readthedocs.io/en/latest/bugreport_info.html",
-			"FX_MODULE_LAYER": "https://docs.extreme-addons.com/manual/extreme-pbr-fx-layer/#8-1-fx-layer",
-			"IMAGE_BOX_VIEWER": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse",
-			"INSTALL_STEP_1": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-7-installation-step-1",
-			"INSTALL_STEP_2": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-72-installation-step-2",
-			"INSTALL_STEP_3": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-73-installation-step-3",
-			"INSTALL_STEP_4": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-74-installation-step-4",
-			"INSTALL_STEP_5": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-71-installation-step-5",
-			"INSTALLATION_PROGRESS": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-76-installation-progress",
-			"INSTALL_MATERIALS_MENU": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-71-installation-step-5",
-			"LIBRARY_MANAGEMENT": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-8-installation-library-management",
-			"LIBRARY_MANAGER_INTERFACE": "https://docs.extreme-addons.com/manual/extreme-pbr-manager-interface/",
-			"MAPPING_EDITOR_1": "https://docs.extreme-addons.com/manual/extreme-pbr-box-utility/#6-6-box-utility-mapping",
-			"MATERIAL_GROUP_MODULE": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/",
-			"MATERIAL_INFO_POPUP": "https://docs.extreme-addons.com/manual/extreme-pbr-tag-and-material/#3-3-tag-and-material-options-info-material",
-			"MATERIAL_LIST_SECTION": "https://docs.extreme-addons.com/manual/extreme-pbr-list-selection/",
-			"MATERIAL_OVERRIDE": "https://docs.extreme-addons.com/manual/shader-overlay-material-override/#16-1-material-override",
-			"MATERIAL_TAG_POPUP": "https://docs.extreme-addons.com/manual/extreme-pbr-tag-and-material/#3-5-tag-and-material-options-edit-tags",
-			"MICRODISPLACE_MENU": "https://docs.extreme-addons.com/manual/extreme-pbr-displace/#11-0-displacement-mircodisplacement",
-			"NODE_UTILITY_MENU": "https://docs.extreme-addons.com/manual/cu-node-utility/",
-			"OPTIONS_MENU": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-9-installation-customize",
-			"PAINT_EDITOR_1": "https://docs.extreme-addons.com/manual/extreme-pbr-fx-layer/#8-3-fx-layer-paint-fx",
-			"PANEL_BUILDER_HELPER": "https://docs.extreme-addons.com/manual/cu-panel-builder-helper/",
-			"SAVE_MATERIAL_EDITOR_1": "https://docs.extreme-addons.com/manual/extreme-pbr-save-material-editor/#12-0-save-material-editor-panel",
-			"SAVE_MATERIAL_MENU": "https://docs.extreme-addons.com/manual/extreme-pbr-save-material-editor/#12-1-save-material-editor-save-material",
-			"SHADER_MAKER_VIDEO_CTRL": "https://docs.extreme-addons.com/manual/extreme-pbr-shader-maker/#extreme-pbr-shader-maker",
-			"SHADER_OVERLAY": "https://docs.extreme-addons.com/manual/shader-overlay-material-override/#shader-overlay",
-			"SINGLE_INSTALLER": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-76-installation-download-single-material",
-			"SOCIAL_UPDATE_MENU": "https://docs.extreme-addons.com/manual/extreme-pbr-social-update/#10-3-social-updates-menu",
-			"SOCKET_OPTIONS": "https://docs.extreme-addons.com/manual/cu-socket-input-editor/#cu-9-0-rgb-socket",
-			"TAG_AND_MATERIAL_OPTIONS": "https://docs.extreme-addons.com/manual/extreme-pbr-tag-and-material/#3-1-tag-and-material-options",
-			"TEXTURE_BROWSER_BOX": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse",
-			"TEXTURE_MANAGER_COMPACT_MATERIAL_MANAGER": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse",
-			"TEXTURE_MANAGER_IMAGE_CTRL": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-5-material-group-transparent",
-			"TEXTURE_MANAGER_INDIVIDUAL_VECTORS": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-5-material-group-transparent",
-			"TEXTURE_PAINT_MIX_MODULE": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-0-material-group-texture-paint",
-			"TUTORIAL_PLAYLIST": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html",
-			"UNRECOGNIZED_MATERIAL": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-18-material-group-unrecognized-material",
-			"UPDATE_CORE": "https://docs.extreme-addons.com/manual/extreme-pbr-social-update/#10-11-social-updates-update-core"
+	"update_time": 0,
+	"update_interval": 3600,
+	"info": "The addon connects to this json, and shows an additional button if there is more than one key in the dictionary, the button opens a popup with buttons as many as the keys and if there are urls in the keys",
+	"manual_version": 2,
+	"manual_urls": {
+		"ADDON_ACTIVATION": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-7-installation-step-1"
+		},
+		"ADD_FX_BUTTON": {
+			"documentation": "https://docs.extreme-addons.com/manuals-content/8-1-fx-layer/"
+		},
+		"ADD_REMOVE_REPLACE": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-add-remove-replace-material/"
+		},
+		"ADJUST_NODE_TREE": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-11-material-group-adjust-node-tree"
+		},
+		"ASSIGN_AND_SELECT": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-add-remove-replace-material/#4-4-add-remove-replace-material-assign-mat-select-by-material"
+		},
+		"BAKE_MENU": {
+			"documentation": "https://docs.extreme-addons.com/manual/bake-editor/"
+		},
+		"BOX_UTILITY_1": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-box-utility/"
+		},
+		"COLOR_LAB": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-2-material-group-color-system"
+		},
+		"CREATOR_GROUP_INPUTS_JSON": {
+			"documentation": "https://docs.extreme-addons.com/manual/cu-library-creator-utility/#cu-7-0-group-inputs-json"
+		},
+		"CREATOR_INTERFACE_TOP": {
+			"documentation": "https://docs.extreme-addons.com/manual/creator-interface-top-operators"
+		},
+		"CREATOR_JSON_OPS": {
+			"documentation": "https://docs.extreme-addons.com/manual/cu-creator-json-ops/"
+		},
+		"CREATOR_MAT_INFO_JSON": {
+			"documentation": "https://docs.extreme-addons.com/manual/material-info-json-fields/"
+		},
+		"CREATOR_MAT_SETTINGS_JSON": {
+			"documentation": "https://docs.extreme-addons.com/manual/cu-material-settings/"
+		},
+		"CREATOR_UTIL_OPS": {
+			"documentation": "https://docs.extreme-addons.com/manual/cu-library-creator-utility/"
+		},
+		"DISPLACE_MENU": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-displace/"
+		},
+		"DYNAMIC_MASK": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-fx-layer/#8-2-fx-layer-dynamic-mask"
+		},
+		"DOCS": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/"
+		},
+		"FAQS": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/faqs.html"
+		},
+		"HOW_TO_REPORT_A_BUG": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/bugreport_info.html"
+		},
+		"FX_MODULE_LAYER": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-fx-layer/#8-1-fx-layer"
+		},
+		"IMAGE_BOX_VIEWER": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse"
+		},
+		"INSTALL_STEP_1": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-7-installation-step-1"
+		},
+		"INSTALL_STEP_2": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-72-installation-step-2"
+		},
+		"INSTALL_STEP_3": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-73-installation-step-3"
+		},
+		"INSTALL_STEP_4": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-74-installation-step-4"
+		},
+		"INSTALL_STEP_5": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-71-installation-step-5"
+		},
+		"INSTALLATION_PROGRESS": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-76-installation-progress"
+		},
+		"INSTALL_MATERIALS_MENU": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-71-installation-step-5"
+		},
+		"LIBRARY_MANAGEMENT": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-8-installation-library-management"
+		},
+		"LIBRARY_MANAGER_INTERFACE": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-manager-interface/"
+		},
+		"MAPPING_EDITOR_1": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-box-utility/#6-6-box-utility-mapping"
+		},
+		"MATERIAL_GROUP_MODULE": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/"
+		},
+		"MATERIAL_INFO_POPUP": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-tag-and-material/#3-3-tag-and-material-options-info-material"
+		},
+		"MATERIAL_LIST_SECTION": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-list-selection/"
+		},
+		"MATERIAL_OVERRIDE": {
+			"documentation": "https://docs.extreme-addons.com/manual/shader-overlay-material-override/#16-1-material-override"
+		},
+		"MATERIAL_TAG_POPUP": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-tag-and-material/#3-5-tag-and-material-options-edit-tags"
+		},
+		"MICRODISPLACE_MENU": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-displace/#11-0-displacement-mircodisplacement"
+		},
+		"NODE_UTILITY_MENU": {
+			"documentation": "https://docs.extreme-addons.com/manual/cu-node-utility/"
+		},
+		"OPTIONS_MENU": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-9-installation-customize"
+		},
+		"PAINT_EDITOR_1": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-fx-layer/#8-3-fx-layer-paint-fx"
+		},
+		"PANEL_BUILDER_HELPER": {
+			"documentation": "https://docs.extreme-addons.com/manual/cu-panel-builder-helper/"
+		},
+		"SAVE_MATERIAL_EDITOR_1": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-save-material-editor/#12-0-save-material-editor-panel"
+		},
+		"SAVE_MATERIAL_MENU": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-save-material-editor/#12-1-save-material-editor-save-material"
+		},
+		"SHADER_MAKER_VIDEO_CTRL": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-shader-maker/#extreme-pbr-shader-maker"
+		},
+		"SHADER_OVERLAY": {
+			"documentation": "https://docs.extreme-addons.com/manual/shader-overlay-material-override/#shader-overlay"
+		},
+		"SINGLE_INSTALLER": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-76-installation-download-single-material"
+		},
+		"SOCIAL_UPDATE_MENU": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-social-update/#10-3-social-updates-menu"
+		},
+		"SOCKET_OPTIONS": {
+			"documentation": "https://docs.extreme-addons.com/manual/cu-socket-input-editor/#cu-9-0-rgb-socket"
+		},
+		"TAG_AND_MATERIAL_OPTIONS": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-tag-and-material/#3-1-tag-and-material-options"
+		},
+		"TEXTURE_BROWSER_BOX": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse"
+		},
+		"TEXTURE_MANAGER_COMPACT_MATERIAL_MANAGER": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse"
+		},
+		"TEXTURE_MANAGER_IMAGE_CTRL": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-5-material-group-transparent"
+		},
+		"TEXTURE_MANAGER_INDIVIDUAL_VECTORS": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-5-material-group-transparent"
+		},
+		"TEXTURE_PAINT_MIX_MODULE": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-0-material-group-texture-paint"
+		},
+		"TUTORIAL_PLAYLIST": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html"
+		},
+		"UNRECOGNIZED_MATERIAL": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-18-material-group-unrecognized-material"
+		},
+		"UPDATE_CORE": {
+			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-social-update/#10-11-social-updates-update-core"
 		}
 	}
 }
