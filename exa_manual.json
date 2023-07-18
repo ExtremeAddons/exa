@@ -139,6 +139,9 @@
 		"SHADER_OVERLAY": {
 			"documentation": "https://docs.extreme-addons.com/manual/shader-overlay-material-override/#shader-overlay"
 		},
+		"SIMPLE_PBR_PANEL": {
+			"documentation": ""
+		},
 		"SINGLE_INSTALLER": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-76-installation-download-single-material"
 		},
