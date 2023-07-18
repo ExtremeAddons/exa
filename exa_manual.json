@@ -183,7 +183,8 @@
 		"operators": {
 			"materialadd": {
 				"options": {
-					"DEFAULT": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-2-material-group-normal"
+					"DEFAULT": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-2-material-group-normal",
+					"REPLACE_MATERIAL": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-2-material-group-normal"
 				}
 			}
 		},
