@@ -178,5 +178,37 @@
 		"UPDATE_CORE": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-social-update/#10-11-social-updates-update-core"
 		}
+	},
+	"manual_key_maps": {
+		"operators": {
+			"materialadd": {
+				"options": {
+					"DEFAULT": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-2-material-group-normal"
+				}
+			}
+		},
+		"properties": {
+			"Scene": {
+				"libraries_selector": ""
+			},
+			"Object": {
+				"smooth_step": ""
+			},
+			"Material": {
+				"material_group": ""
+			},
+			"NodeTree": {
+				"dynamic_masks": ""
+			},
+			"NodeSocketInterface": {
+				"brush_paint_type": ""
+			},
+			"Node": {
+				"node_group": ""
+			},
+			"AddonPreferences": {
+				"material_type": ""
+			}
+		}
 	}
 }
