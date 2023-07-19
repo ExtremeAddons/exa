@@ -189,7 +189,7 @@
 			},
 			"autoshadesmooth": "https://www.google.com/search?q=autoshadesmooth&rlz=1C1CHBF_itIT877IT877&oq=autoshadesmooth&aqs=chrome..69i57j0i13i30j0i8i13i30.4849j0j9&sourceid=chrome&ie=UTF-8"
 		},
-		"pointer_props": {
+		"PointerProperty": {
 			"ExtremePbrSceneProp": {
 				"libraries_selector": "https://www.google.com/search?q=library+selector&rlz=1C1CHBF_itIT877IT877&oq=library+selector&aqs=chrome..69i57j0i22i30l6j0i10i22i30j0i22i30j0i10i22i30.6501j0j7&sourceid=chrome&ie=UTF-8"
 			},
