@@ -3,6 +3,7 @@
 	"update_interval": 3600,
 	"info": "The addon connects to this json, and shows an additional button if there is more than one key in the dictionary, the button opens a popup with buttons as many as the keys and if there are urls in the keys",
 	"manual_version": 2,
+	"undocumented_button": "https://extreme-pbr-docs.readthedocs.io/en/latest/undocumented.html",
 	"manual_urls": {
 		"ADDON_ACTIVATION": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-7-installation-step-1"
