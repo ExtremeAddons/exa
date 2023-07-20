@@ -59,6 +59,9 @@
 		"FAQS": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/faqs.html"
 		},
+		"HOW_TO_GET_LICENSE": {
+			"documentation": ""
+		},
 		"HOW_TO_REPORT_A_BUG": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/bugreport_info.html"
 		},
@@ -95,6 +98,9 @@
 		"LIBRARY_MANAGER_INTERFACE": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-manager-interface/"
 		},
+		"LICENSE_PAGE": {
+			"documentation": ""
+		},
 		"MAPPING_EDITOR_1": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-box-utility/#6-6-box-utility-mapping"
 		},
@@ -128,6 +134,9 @@
 		"PANEL_BUILDER_HELPER": {
 			"documentation": "https://docs.extreme-addons.com/manual/cu-panel-builder-helper/"
 		},
+		"REGISTER_PRODUCT": {
+			"documentation": ""
+		},
 		"SAVE_MATERIAL_EDITOR_1": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-save-material-editor/#12-0-save-material-editor-panel"
 		},
@@ -141,6 +150,9 @@
 			"documentation": "https://docs.extreme-addons.com/manual/shader-overlay-material-override/#shader-overlay"
 		},
 		"SIMPLE_PBR_PANEL": {
+			"documentation": ""
+		},
+		"SING_UP": {
 			"documentation": ""
 		},
 		"SINGLE_INSTALLER": {
@@ -157,6 +169,9 @@
 		},
 		"TEXTURE_BROWSER_BOX": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse"
+		},
+		"TEXTURE_COLOR_SPACES": {
+			"documentation": ""
 		},
 		"TEXTURE_MANAGER_COMPACT_MATERIAL_MANAGER": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse"
