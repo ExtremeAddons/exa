@@ -4,18 +4,13 @@
 	"info": "The addon connects to this json, and shows an additional button if there is more than one key in the dictionary, the button opens a popup with buttons as many as the keys and if there are urls in the keys",
 	"manual_version": 2,
 	"undocumented_button": "https://extreme-pbr-docs.readthedocs.io/en/latest/undocumented.html",
+	"doc_homepage": "https://extreme-pbr-docs.readthedocs.io/en/latest/",
 	"manual_urls": {
 		"ADDON_ACTIVATION": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-7-installation-step-1"
 		},
-		"ADD_FX_BUTTON": {
-			"documentation": "https://docs.extreme-addons.com/manuals-content/8-1-fx-layer/"
-		},
 		"ADD_REMOVE_REPLACE": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-add-remove-replace-material/"
-		},
-		"ADJUST_NODE_TREE": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-11-material-group-adjust-node-tree"
 		},
 		"ASSIGN_AND_SELECT": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-add-remove-replace-material/#4-4-add-remove-replace-material-assign-mat-select-by-material"
@@ -56,11 +51,17 @@
 		"DOCS": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/"
 		},
+		"EXPERIMENTAL_OPTIONS_MENU": {
+			"todo": ""
+		},
 		"FAQS": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/faqs.html"
 		},
+		"FIX_OPTIONS_MENU": {
+			"todo": ""
+		},
 		"HOW_TO_GET_LICENSE": {
-			"documentation": ""
+			"todo": ""
 		},
 		"HOW_TO_REPORT_A_BUG": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/bugreport_info.html"
@@ -99,7 +100,7 @@
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-manager-interface/"
 		},
 		"LICENSE_PAGE": {
-			"documentation": ""
+			"todo": ""
 		},
 		"MAPPING_EDITOR_1": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-box-utility/#6-6-box-utility-mapping"
@@ -135,7 +136,7 @@
 			"documentation": "https://docs.extreme-addons.com/manual/cu-panel-builder-helper/"
 		},
 		"REGISTER_PRODUCT": {
-			"documentation": ""
+			"todo": ""
 		},
 		"SAVE_MATERIAL_EDITOR_1": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-save-material-editor/#12-0-save-material-editor-panel"
@@ -150,10 +151,10 @@
 			"documentation": "https://docs.extreme-addons.com/manual/shader-overlay-material-override/#shader-overlay"
 		},
 		"SIMPLE_PBR_PANEL": {
-			"documentation": ""
+			"todo": ""
 		},
 		"SING_UP": {
-			"documentation": ""
+			"todo": ""
 		},
 		"SINGLE_INSTALLER": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-76-installation-download-single-material"
@@ -171,7 +172,7 @@
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse"
 		},
 		"TEXTURE_COLOR_SPACES": {
-			"documentation": ""
+			"todo": ""
 		},
 		"TEXTURE_MANAGER_COMPACT_MATERIAL_MANAGER": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse"
