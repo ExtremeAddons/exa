@@ -96,6 +96,9 @@
 		"LICENSE_PAGE": {
 			"todo": ""
 		},
+		"MAKE_ASSET_BROWSER": {
+			"todo": ""
+		},
 		"MAPPING_EDITOR_1": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-box-utility/#6-6-box-utility-mapping"
 		},
