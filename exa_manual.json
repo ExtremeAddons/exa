@@ -117,6 +117,9 @@
 		"MICRODISPLACE_MENU": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-displace/#11-0-displacement-mircodisplacement"
 		},
+		"MISSING_FILES_ASSET_BROWSER_CREATION": {
+			"todo": ""
+		},
 		"NODE_UTILITY_MENU": {
 			"documentation": "https://docs.extreme-addons.com/manual/cu-node-utility/"
 		},
