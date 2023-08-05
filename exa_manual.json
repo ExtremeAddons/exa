@@ -209,7 +209,7 @@
 					"LEFT": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#left-right-arrow",
 					"RIGHT": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#left-right-arrow"
 				}
-			},
+			}
 		},
 		"PointerProperty": {
 			"ExtremePbrSceneProp": {
