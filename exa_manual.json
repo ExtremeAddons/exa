@@ -202,7 +202,7 @@
 				}
 			},
 			"autoshadesmooth": "https://www.google.com/search?q=autoshadesmooth&rlz=1C1CHBF_itIT877IT877&oq=autoshadesmooth&aqs=chrome..69i57j0i13i30j0i8i13i30.4849j0j9&sourceid=chrome&ie=UTF-8",
-			"scroll_preview": {
+			"scroll_previews": {
 				"options": {
 					"UP": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#up-down-arrow",
 					"DOWN": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#up-down-arrow",
