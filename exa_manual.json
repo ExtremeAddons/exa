@@ -201,7 +201,15 @@
 					"REPLACE_MATERIAL": "https://www.google.com/search?q=replace&rlz=1C1CHBF_itIT877IT877&ei=ReS2ZJG6IO2Sxc8Pup-LwA0&ved=0ahUKEwjR8Jel-5iAAxVtSfEDHbrPAtgQ4dUDCA8&uact=5&oq=replace&gs_lp=Egxnd3Mtd2l6LXNlcnAiB3JlcGxhY2UyBxAAGIoFGEMyBRAAGIAEMggQABiABBixAzILEAAYgAQYsQMYgwEyBRAAGIAEMgUQLhiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIHEAAYigUYQ0gAUABYAHAAeACQAQCYAUmgAUmqAQExuAEDyAEA4gMEGAAgQQ&sclient=gws-wiz-serp"
 				}
 			},
-			"autoshadesmooth": "https://www.google.com/search?q=autoshadesmooth&rlz=1C1CHBF_itIT877IT877&oq=autoshadesmooth&aqs=chrome..69i57j0i13i30j0i8i13i30.4849j0j9&sourceid=chrome&ie=UTF-8"
+			"autoshadesmooth": "https://www.google.com/search?q=autoshadesmooth&rlz=1C1CHBF_itIT877IT877&oq=autoshadesmooth&aqs=chrome..69i57j0i13i30j0i8i13i30.4849j0j9&sourceid=chrome&ie=UTF-8",
+			"scroll_preview": {
+				"options": {
+					"UP": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#up-down-arrow",
+					"DOWN": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#up-down-arrow",
+					"LEFT": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#left-right-arrow",
+					"RIGHT": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#left-right-arrow"
+				}
+			},
 		},
 		"PointerProperty": {
 			"ExtremePbrSceneProp": {
