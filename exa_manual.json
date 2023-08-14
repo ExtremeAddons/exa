@@ -48,6 +48,9 @@
 		"EXPERIMENTAL_OPTIONS_MENU": {
 			"todo": ""
 		},
+		"INTERFACE_OPTIONS_MENU": {
+			"todo": ""
+		},
 		"FAQS": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/faqs.html"
 		},
