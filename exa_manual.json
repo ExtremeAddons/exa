@@ -229,7 +229,7 @@
 			"search_lost_files": {
 				"options": {
 					"FIND_LOST_IMAGE_SINGLE": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#unrecognized-material",
-					"FIND_LOST_DATA_IMAGES": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#find-lost-images",
+					"FIND_LOST_DATA_IMAGES": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#find-lost-images"
 				}
 			},
 			"open_preferences": {
