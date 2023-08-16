@@ -94,7 +94,7 @@
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/make_asset_browser.html"
 		},
 		"MAPPING_EDITOR": {
-			"documentation": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html"
 		},
 		"MATERIAL_INFO_TAG": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#info-tag"
@@ -149,10 +149,10 @@
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/paint_tools.html"
 		},
 		"PANEL_BUILDER_HELPER": {
-			"documentation": "https://docs.extreme-addons.com/manual/cu-panel-builder-helper/"
+			"todo": ""
 		},
 		"REGISTER_PRODUCT": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#step-1-addon-activation"
 		},
 		"SAVE_EDITOR_UI": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html"
