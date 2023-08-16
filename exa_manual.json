@@ -109,40 +109,44 @@
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/make_asset_browser.html#missing-files-during-the-asset-browser-creation"
 		},
 		"NG_FX_NEXUS_LAYER" : {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#fx-layer"
 		},
 		"NG_NEXUS_SHADER_MAKER_VIDEO": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html#shader-maker-video"
 		},
 		"NG_NEXUS_MODULE": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#material-nexus-type"
 		},
 		"NG_NEXUS_PAINTER": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html#painter"
 		},
 		"NG_SHADER_MODULE": {
 			"unused_for_now": ""
 		},
 		"NG_DYNMASK_PAINT": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask",
+			"video tutorial": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html#fx-dynamic-mask-types"
 		},
 		"NG_DYNMASK_NOISE": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask-noise",
+			"video tutorial": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html#fx-dynamic-mask-types"
 		},
 		"NG_DYNMASK_WORN_EDGES": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask-worn-edges",
+			"video tutorial": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html#fx-dynamic-mask-types"
 		},
 		"NG_DYNMASK_Z_MIX_V2": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask-z-mix-v2",
+			"video tutorial": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html#fx-dynamic-mask-types"
 		},
 		"NODE_UTILITY_MENU": {
-			"documentation": "https://docs.extreme-addons.com/manual/cu-node-utility/"
+			"todo": ""
 		},
 		"OPTIONS_MENU": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-9-installation-customize"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#options"
 		},
-		"PAINT_EDITOR_1": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-fx-layer/#8-3-fx-layer-paint-fx"
+		"PAINT_TOOLS": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/paint_tools.html"
 		},
 		"PANEL_BUILDER_HELPER": {
 			"documentation": "https://docs.extreme-addons.com/manual/cu-panel-builder-helper/"
@@ -187,16 +191,16 @@
 			"todo": ""
 		},
 		"TEXTURE_MANAGER_COMPACT_MATERIAL_MANAGER": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse"
+			"documentation": ""
 		},
 		"TEXTURE_MANAGER_IMAGE_CTRL": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-5-material-group-transparent"
+			"documentation": ""
 		},
 		"TEXTURE_MANAGER_INDIVIDUAL_VECTORS": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-5-material-group-transparent"
+			"documentation": ""
 		},
 		"TEXTURE_PAINT_MIX_MODULE": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-0-material-group-texture-paint"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_paint.html#texture-paint-editor"
 		},
 		"TUTORIAL_PLAYLIST": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html"
