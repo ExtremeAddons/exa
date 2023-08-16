@@ -7,112 +7,106 @@
 	"doc_homepage": "https://extreme-pbr-docs.readthedocs.io/en/latest/",
 	"manual_urls": {
 		"ADDON_ACTIVATION": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-7-installation-step-1"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#step-1-addon-activation"
 		},
 		"ADD_REMOVE_REPLACE": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-add-remove-replace-material/"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#add-replace-remove-buttons"
 		},
 		"BAKE_MENU": {
-			"documentation": "https://docs.extreme-addons.com/manual/bake-editor/"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html"
 		},
 		"COLOR_LAB": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-2-material-group-color-system"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/color_lab.html"
 		},
 		"CREATOR_GROUP_INPUTS_JSON": {
-			"documentation": "https://docs.extreme-addons.com/manual/cu-library-creator-utility/#cu-7-0-group-inputs-json"
+			"todo": "https://docs.extreme-addons.com/manual/cu-library-creator-utility/#cu-7-0-group-inputs-json"
 		},
 		"CREATOR_INTERFACE_TOP": {
-			"documentation": "https://docs.extreme-addons.com/manual/creator-interface-top-operators"
+			"todo": "https://docs.extreme-addons.com/manual/creator-interface-top-operators"
 		},
 		"CREATOR_JSON_OPS": {
-			"documentation": "https://docs.extreme-addons.com/manual/cu-creator-json-ops/"
+			"todo": "https://docs.extreme-addons.com/manual/cu-creator-json-ops/"
 		},
 		"CREATOR_MAT_INFO_JSON": {
-			"documentation": "https://docs.extreme-addons.com/manual/material-info-json-fields/"
+			"todo": "https://docs.extreme-addons.com/manual/material-info-json-fields/"
 		},
 		"CREATOR_MAT_SETTINGS_JSON": {
-			"documentation": "https://docs.extreme-addons.com/manual/cu-material-settings/"
+			"todo": "https://docs.extreme-addons.com/manual/cu-material-settings/"
 		},
 		"CREATOR_UTIL_OPS": {
-			"documentation": "https://docs.extreme-addons.com/manual/cu-library-creator-utility/"
+			"todo": "https://docs.extreme-addons.com/manual/cu-library-creator-utility/"
 		},
 		"DISPLACE_MENU": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-displace/"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/displacement.html"
 		},
 		"DOCS": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/"
 		},
 		"EXPERIMENTAL_OPTIONS_MENU": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#experimental-options"
 		},
 		"INTERFACE_OPTIONS_MENU": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#options"
 		},
 		"FAQS": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/faqs.html"
 		},
 		"FIX_OPTIONS_MENU": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#fix-options"
 		},
 		"HOW_TO_GET_LICENSE": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#how-to-get-license-only-for-up-to-4-0-207"
 		},
 		"HOW_TO_REPORT_A_BUG": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/bugreport_info.html"
 		},
-		"IMAGE_BOX_VIEWER": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse"
+		"TEXTURE_MANAGER_IMAGE_PREVIEW": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#mute-texture"
 		},
 		"INSTALL_STEP_1": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-7-installation-step-1"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#step-1-addon-activation"
 		},
 		"INSTALL_STEP_2": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-72-installation-step-2"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#step-2-choose-path"
 		},
 		"INSTALL_STEP_3": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-73-installation-step-3"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#step-2-choose-path"
 		},
 		"INSTALL_STEP_4": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-74-installation-step-4"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#step-4-create-library-structure"
 		},
 		"INSTALL_STEP_5": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-71-installation-step-5"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#step-5-install-material"
 		},
 		"INSTALLATION_PROGRESS": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-76-installation-progress"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#progress-bar-s"
 		},
 		"INSTALL_MATERIALS_MENU": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-71-installation-step-5"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#step-5-install-material"
 		},
 		"LIBRARY_MANAGEMENT": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-installation/#1-8-installation-library-management"
-		},
-		"LIBRARY_MANAGER_INTERFACE": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-manager-interface/"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#libraries"
 		},
 		"LICENSE_PAGE": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#move-license-to-another-computer"
 		},
 		"MAKE_ASSET_BROWSER": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/make_asset_browser.html"
 		},
-		"MAPPING_EDITOR_1": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-box-utility/#6-6-box-utility-mapping"
+		"MAPPING_EDITOR": {
+			"documentation": ""
 		},
-		"MATERIAL_INFO_POPUP": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-tag-and-material/#3-3-tag-and-material-options-info-material"
+		"MATERIAL_INFO_TAG": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#info-tag"
 		},
 		"MATERIAL_OVERRIDE": {
-			"documentation": "https://docs.extreme-addons.com/manual/shader-overlay-material-override/#16-1-material-override"
-		},
-		"MATERIAL_TAG_POPUP": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-tag-and-material/#3-5-tag-and-material-options-edit-tags"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_override.html"
 		},
 		"MICRODISPLACE_MENU": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-displace/#11-0-displacement-mircodisplacement"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/displacement.html#displacement-microdisplacement"
 		},
 		"MISSING_FILES_ASSET_BROWSER_CREATION": {
-			"todo": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/make_asset_browser.html#missing-files-during-the-asset-browser-creation"
 		},
 		"NG_FX_NEXUS_LAYER" : {
 			"todo": ""
