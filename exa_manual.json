@@ -39,9 +39,6 @@
 		"DISPLACE_MENU": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-displace/"
 		},
-		"DYNAMIC_MASK": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-fx-layer/#8-2-fx-layer-dynamic-mask"
-		},
 		"DOCS": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/"
 		},
@@ -62,9 +59,6 @@
 		},
 		"HOW_TO_REPORT_A_BUG": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/bugreport_info.html"
-		},
-		"FX_MODULE_LAYER": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-fx-layer/#8-1-fx-layer"
 		},
 		"IMAGE_BOX_VIEWER": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/#7-1-material-group-diffuse"
@@ -105,9 +99,6 @@
 		"MAPPING_EDITOR_1": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-box-utility/#6-6-box-utility-mapping"
 		},
-		"MATERIAL_GROUP_MODULE": {
-			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-material-group/"
-		},
 		"MATERIAL_INFO_POPUP": {
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-tag-and-material/#3-3-tag-and-material-options-info-material"
 		},
@@ -121,6 +112,33 @@
 			"documentation": "https://docs.extreme-addons.com/manual/extreme-pbr-displace/#11-0-displacement-mircodisplacement"
 		},
 		"MISSING_FILES_ASSET_BROWSER_CREATION": {
+			"todo": ""
+		},
+		"NG_FX_NEXUS_LAYER" : {
+			"todo": ""
+		},
+		"NG_NEXUS_SHADER_MAKER_VIDEO": {
+			"todo": ""
+		},
+		"NG_NEXUS_MODULE": {
+			"todo": ""
+		},
+		"NG_NEXUS_PAINTER": {
+			"todo": ""
+		},
+		"NG_SHADER_MODULE": {
+			"unused_for_now": ""
+		},
+		"NG_DYNMASK_PAINT": {
+			"todo": ""
+		},
+		"NG_DYNMASK_NOISE": {
+			"todo": ""
+		},
+		"NG_DYNMASK_WORN_EDGES": {
+			"todo": ""
+		},
+		"NG_DYNMASK_Z_MIX_V2": {
 			"todo": ""
 		},
 		"NODE_UTILITY_MENU": {
