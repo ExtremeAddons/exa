@@ -121,7 +121,7 @@
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html#painter"
 		},
 		"NG_SHADER_MODULE": {
-			"unused_for_now": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#shader-module-group"
 		},
 		"NG_DYNMASK_PAINT": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask",
