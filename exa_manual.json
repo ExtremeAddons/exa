@@ -217,7 +217,7 @@
 					"REPLACE_MATERIAL": ""
 				}
 			},
-			"autoshadesmooth": "",
+			"autoshadesmooth": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#smart-shade-smooth",
 			"scroll_previews": {
 				"options": {
 					"UP": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#up-down-arrow",
