@@ -214,11 +214,61 @@
 			"search_categories": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-category",
 			"auto_shade_smooth": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#smart-shade-smooth",
 			"reload_current_preview_icons": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#reload-preview-icons",
+			"menu_tag_search": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-for-tag",
+			"search_materials": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-material-by-entering-text",
+			"tag_manager_panel": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#edit-tags",
+			"search_tags": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#edit-tags",
+			"duplicate_material": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#duplicate-material",
+			"popup_utility_panel": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#box-utility-dropdown-menu",
+			"copy_material": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#copy-material-smart",
+			"assign_vertex_group": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#smart-vertex-groups",
+			"modal_bake": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#bake-editor-button",
+			"mapping_editor_panel": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#mapping-editor-button",
+			"reset_uv": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#reset-all-parameter",
 
-			"materialadd": {
+
+			"choose_path": {
 				"options": {
-					"DEFAULT": "",
-					"REPLACE_MATERIAL": ""
+					"MAKE_DIRS_PATHS": "",
+					"USER_LIB_EXIST": "",
+					"CREATE_USER_LIB": "",
+					"LINK_DEFAULT_LIB": "",
+					"LINK_USER_LIB": "",
+					"RESET_DEFAULT_LIB_PATH": "",
+					"RESET_USER_LIB_PATH": "",
+					"ADD_EXPANSION_PATH": "",
+					"BAKE_PATH": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#choose-bake-destination"
+
+				}
+			},
+			"search_data_materials": {
+				"options": {
+					"REPLACE": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-and-replace",
+					"ADD": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-and-add"
+				}
+			},
+			"select_obj_tool": {
+				"options": {
+					"SELECT_CUBE_PROJECTION": "",
+					"SELECT_SMART_PROJECTION": "",
+					"SELECT_ONLY": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#select-by-material"
+				}
+        	},
+			"add_material" : {
+				"options" : {
+					"ADD_MODULE" : "",
+					"REPLACE_MATERIAL" : "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#replace",
+					"DEFAULT" : "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#add-new",
+					"REPLACE_MODULE" : "",
+					"IMPORT_EMPTY_MODULE" : ""
+				}
+			},
+			"remove_material": {
+				"options": {
+					"REMOVE_FX": "",
+					"REMOVE_MATERIAL": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#remove",
+					"REMOVE_ALL_MATERIAL": "",
+					"REMOVE_MODULE": ""
 				}
 			},
 			"scroll_previews": {
@@ -253,6 +303,12 @@
 				"ASSIGN_WINMAN_MAP": "",
 				"ADJUST_SCENE": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#something-went-wrong-press-this-button"
 
+			},
+			"info_tag_panel": {
+				"options": {
+					"SHOW_JSON_MAT_INFO": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#info-tag",
+					"SHOW_MAT_INFO": ""
+				}
 			}
 
 		},
@@ -260,13 +316,59 @@
 			"ExtremePbrSceneProp": {
 				"libraries_selector": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#library-selector-drop-down-menu",
 				"up_category": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#category-selector-drop-down-menu",
-				"k_size": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#tag-search-size-selector"
+				"k_size": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#material-version-selector",
+				"tag_search": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-for-tag",
+				"tag_exclude": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-for-tag",
+				"edit_tag": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#info-tag",
+                "temp_tag": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#info-tag",
+				"replace_all": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#replace",
+				"bake_mode": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-modes",
+				"bake_format": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#output-format",
+				"bake_samples": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-samples",
+				"bake_device": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-device",
+				"bake_size": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-size",
+				"bake_smart_projection": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#create-new-uv-map",
+				"bake_uv_margin": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#island-margin",
+				"baked_object_on_new_scene": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#move-bake-object-in-a-new-scene",
+				"bake_on_fbx": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#export-fbx-object",
+				"flip_x_axis": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#export-fbx-object",
+		        "use_pass_direct": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#direct-light",
+				"use_pass_indirect": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#indirect-light",
+				"b_bake_diffuse": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"b_bake_specular": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"b_bake_transmission": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"b_bake_emission": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"b_bake_roughness": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"b_bake_normal": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"b_bake_ao": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"b_bake_metallic": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"b_bake_alpha": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"b_bake_subsurface": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"bake_separate_alpha": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"bake_y_direction": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-bsdf-mode",
+				"c_bake_ao": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
+				"c_bake_normal": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
+				"c_bake_roughness": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
+				"c_bake_emit": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
+				"c_bake_diffuse": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
+				"c_bake_glossy": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
+				"c_bake_transmission": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
+				"bake_alpha_from_combined": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
+
+
+
 			},
 			"ExtremePbrObjectProp": {
 				"smooth_step": ""
 			},
 			"ExtremePbrMaterialProp": {
-				"material_group": ""
+				"displace_on_off": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#displace-on-off",
+				"uv_mapping_type": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uv-mapping-type",
+				"uvs_scale": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-size",
+				"uvs_position_x": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-pos-x-y",
+				"uvs_position_y": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-pos-x-y",
+				"uvs_rotation": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-rot"
+
 			},
 			"ExtremePbrNodeGProperties": {
 				"dynamic_masks": ""
