@@ -236,7 +236,19 @@
 				"HELPS": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#helps-button",
 				"UPDATES": ""
 
+			},
+			"material_utils": {
+				"REMOVE_UNUSED_SLOTS": "",
+				"ADJUST_NODE_TREE": "",
+				"ADJUST_ALL_NODE_TREE": "",
+				"PURGE_DATA": "",
+				"RESET_AUTHOR": "",
+				"SILENCE_NODE": "",
+				"ASSIGN_WINMAN_MAP": "",
+				"ADJUST_SCENE": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#something-went-wrong-press-this-button"
+
 			}
+
 		},
 		"PointerProperty": {
 			"ExtremePbrSceneProp": {
