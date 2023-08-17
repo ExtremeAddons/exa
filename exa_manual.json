@@ -249,9 +249,10 @@
 			},
 			"select_obj_tool": {
 				"options": {
-					"SELECT_CUBE_PROJECTION": "",
-					"SELECT_SMART_PROJECTION": "",
-					"SELECT_ONLY": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#select-by-material"
+					"SELECT_CUBE_PROJECTION": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#cube-projection",
+					"SELECT_SMART_PROJECTION": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#smart-projection",
+					"SELECT_ONLY_MAIN_PANEL": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#select-by-material",
+					"SELECT_ONLY_MAPPING_EDITOR": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#select-face"
 				}
         	},
 			"add_material" : {
@@ -354,6 +355,8 @@
 				"c_bake_glossy": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
 				"c_bake_transmission": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
 				"bake_alpha_from_combined": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
+				"uv_lock_x": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#lock-x-y",
+				"uv_lock_y": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#lock-x-y"
 
 
 
