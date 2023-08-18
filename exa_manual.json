@@ -111,18 +111,165 @@
 		"NG_FX_NEXUS_LAYER" : {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#fx-layer"
 		},
+		"NG_FX_NEXUS_LAYER_Exclude_Mask": "",
+		"NG_FX_NEXUS_LAYER_Invert_Fx": "",
+		"NG_FX_NEXUS_LAYER_From_Min": "",
+		"NG_FX_NEXUS_LAYER_From_Max": "",
+		"NG_FX_NEXUS_LAYER_Diffuse": "",
+		"NG_FX_NEXUS_LAYER_Show_Diffuse": "",
+		"NG_FX_NEXUS_LAYER_Colorize_Strength": "",
+		"NG_FX_NEXUS_LAYER_Use_sample": "",
+		"NG_FX_NEXUS_LAYER_Sample": "",
+		"NG_FX_NEXUS_LAYER_Tolerance": "",
+		"NG_FX_NEXUS_LAYER_Emission": "",
+		"NG_FX_NEXUS_LAYER_Transparent": "",
+		"NG_FX_NEXUS_LAYER_Subsurface_Radius": "",
+		"NG_FX_NEXUS_LAYER_Radius_Scale": "",
+		"NG_FX_NEXUS_LAYER_Subsurface_Strength": "",
+		"NG_FX_NEXUS_LAYER_Ambient_Occlusion": "",
+		"NG_FX_NEXUS_LAYER_Metallic": "",
+		"NG_FX_NEXUS_LAYER_Specular": "",
+		"NG_FX_NEXUS_LAYER_Sp_Tint": "",
+		"NG_FX_NEXUS_LAYER_Roughness": "",
+		"NG_FX_NEXUS_LAYER_Sheen": "",
+		"NG_FX_NEXUS_LAYER_Sh_Tint": "",
+		"NG_FX_NEXUS_LAYER_Clearcoat": "",
+		"NG_FX_NEXUS_LAYER_Clearcoat_Roughness": "",
+		"NG_FX_NEXUS_LAYER_Transmission": "",
+		"NG_FX_NEXUS_LAYER_IOR": "",
+		"NG_FX_NEXUS_LAYER_Tr_Roughness": "",
+		"NG_FX_NEXUS_LAYER_Normal": "",
+		"NG_FX_NEXUS_LAYER_Bump": "",
+		"NG_FX_NEXUS_LAYER_Bump_Distance": "",
+		"NG_FX_NEXUS_LAYER_lx": "",
+		"NG_FX_NEXUS_LAYER_ly": "",
+		"NG_FX_NEXUS_LAYER_lz": "",
+		"NG_FX_NEXUS_LAYER_rx": "",
+		"NG_FX_NEXUS_LAYER_ry": "",
+		"NG_FX_NEXUS_LAYER_rz": "",
+		"NG_FX_NEXUS_LAYER_sx": "",
+		"NG_FX_NEXUS_LAYER_sy": "",
+		"NG_FX_NEXUS_LAYER_sz": "",
+		"NG_FX_NEXUS_LAYER_Scale_Uniform": "",
+
 		"NG_NEXUS_SHADER_MAKER_VIDEO": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html#shader-maker-video"
 		},
+		"NG_NEXUS_SHADER_MAKER_VIDEO_Transparent": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_Specular": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_Roughness": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_Emission_Strength": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_Exposure": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_Contrast": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_Saturation": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_Cathode_Fx": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_Scale_Cathode_Fx": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_lx": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_ly": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_lz": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_rx": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_ry": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_rz": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_sx": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_sy": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_sz": "",
+		"NG_NEXUS_SHADER_MAKER_VIDEO_Scale_Uniform": "",
+
 		"NG_NEXUS_MODULE": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#material-nexus-type"
 		},
+		"NG_NEXUS_MODULE": "",
+		"NG_NEXUS_MODULE_Diffuse": "",
+		"NG_NEXUS_MODULE_Colorize_Strength": "",
+		"NG_NEXUS_MODULE_Use_Sample": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#colorize-sample",
+		"NG_NEXUS_MODULE_Sample": "",
+		"NG_NEXUS_MODULE_Tolerance": "",
+		"NG_NEXUS_MODULE_Emission": "",
+		"NG_NEXUS_MODULE_Transparent": "",
+		"NG_NEXUS_MODULE_Subsurface_Radius": "",
+		"NG_NEXUS_MODULE_Radius_Scale": "",
+		"NG_NEXUS_MODULE_Subsurface_Strength": "",
+		"NG_NEXUS_MODULE_Ambient_Occlusion": "",
+		"NG_NEXUS_MODULE_Metallic": "",
+		"NG_NEXUS_MODULE_Specular": "",
+		"NG_NEXUS_MODULE_Sp_Tint": "",
+		"NG_NEXUS_MODULE_Roughness": "",
+		"NG_NEXUS_MODULE_Sheen": "",
+		"NG_NEXUS_MODULE_Sh_Tint": "",
+		"NG_NEXUS_MODULE_Clearcoat": "",
+		"NG_NEXUS_MODULE_Clearcoat_Roughness": "",
+		"NG_NEXUS_MODULE_Transmission": "",
+		"NG_NEXUS_MODULE_IOR": "",
+		"NG_NEXUS_MODULE_Tr_Roughness": "",
+		"NG_NEXUS_MODULE_Normal": "",
+		"NG_NEXUS_MODULE_Bump": "",
+		"NG_NEXUS_MODULE_Bump_Distance": "",
+		"NG_NEXUS_MODULE_lx": "",
+		"NG_NEXUS_MODULE_ly": "",
+		"NG_NEXUS_MODULE_lz": "",
+		"NG_NEXUS_MODULE_rx": "",
+		"NG_NEXUS_MODULE_ry": "",
+		"NG_NEXUS_MODULE_rz": "",
+		"NG_NEXUS_MODULE_sx": "",
+		"NG_NEXUS_MODULE_sy": "",
+		"NG_NEXUS_MODULE_sz": "",
+		"NG_NEXUS_MODULE_Scale_Uniform": "",
+		"NG_NEXUS_MODULE_World_Coordinate": "",
+
+
 		"NG_NEXUS_PAINTER": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html#painter"
 		},
+		"NG_NEXUS_PAINTER_Diffuse": "",
+		"NG_NEXUS_PAINTER_Emission_Strength": "",
+		"NG_NEXUS_PAINTER_Subsurface_Strength": "",
+		"NG_NEXUS_PAINTER_Metal_Strength": "",
+		"NG_NEXUS_PAINTER_Specular_Strength": "",
+		"NG_NEXUS_PAINTER_Roughness_Strength": "",
+		"NG_NEXUS_PAINTER_Alpha_Strength": "",
+		"NG_NEXUS_PAINTER_Bump_Strenght": "",
+		"NG_NEXUS_PAINTER_Bump_Distance": "",
+
 		"NG_SHADER_MODULE": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#shader-module-group"
 		},
+		"NG_SHADER_MODULE_Diffuse": "",
+		"NG_SHADER_MODULE_Colorize_Strength": "",
+		"NG_SHADER_MODULE_Use_Sample": "",
+		"NG_SHADER_MODULE_Sample": "",
+		"NG_SHADER_MODULE_Tolerance": "",
+		"NG_SHADER_MODULE_Emission": "",
+		"NG_SHADER_MODULE_Transparent": "",
+		"NG_SHADER_MODULE_Subsurface_Radius": "",
+		"NG_SHADER_MODULE_Radius_Scale": "",
+		"NG_SHADER_MODULE_Subsurface_Strength": "",
+		"NG_SHADER_MODULE_Ambient_Occlusion": "",
+		"NG_SHADER_MODULE_Metallic": "",
+		"NG_SHADER_MODULE_Specular": "",
+		"NG_SHADER_MODULE_Sp_Tint": "",
+		"NG_SHADER_MODULE_Roughness": "",
+		"NG_SHADER_MODULE_Sheen": "",
+		"NG_SHADER_MODULE_Sh_Tint": "",
+		"NG_SHADER_MODULE_Clearcoat": "",
+		"NG_SHADER_MODULE_Clearcoat_Roughness": "",
+		"NG_SHADER_MODULE_Transmission": "",
+		"NG_SHADER_MODULE_IOR": "",
+		"NG_SHADER_MODULE_Tr_Roughness": "",
+		"NG_SHADER_MODULE_Normal": "",
+		"NG_SHADER_MODULE_Bump": "",
+		"NG_SHADER_MODULE_Bump_Distance": "",
+		"NG_SHADER_MODULE_lx": "",
+		"NG_SHADER_MODULE_ly": "",
+		"NG_SHADER_MODULE_lz": "",
+		"NG_SHADER_MODULE_rx": "",
+		"NG_SHADER_MODULE_ry": "",
+		"NG_SHADER_MODULE_rz": "",
+		"NG_SHADER_MODULE_sx": "",
+		"NG_SHADER_MODULE_sy": "",
+		"NG_SHADER_MODULE_sz": "",
+		"NG_SHADER_MODULE_Scale_Uniform": "",
+		"NG_SHADER_MODULE_World_Coordinate": "",
+
 		"NG_DYNMASK_PAINT": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask",
 			"video tutorial": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html#fx-dynamic-mask-types"
@@ -131,22 +278,33 @@
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask-noise",
 			"video tutorial": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html#fx-dynamic-mask-types"
 		},
-
 		"NG_DYNMASK_NOISE_Detailed_deadlift": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#detailed-deadlift",
 		"NG_DYNMASK_NOISE_Invert_Mask": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#invert-mask",
 		"NG_DYNMASK_NOISE_Roughness": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#id16",
 		"NG_DYNMASK_NOISE_Detail": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#detail",
 		"NG_DYNMASK_NOISE_Distortion": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#distortion",
 		"NG_DYNMASK_NOISE_Scale": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#scale",
-
 		"NG_DYNMASK_WORN_EDGES": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask-worn-edges",
 			"video tutorial": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html#fx-dynamic-mask-types"
 		},
+		"NG_DYNMASK_WORN_EDGES_Invert_Mask": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#worn-edge-invert-mask",
+		"NG_DYNMASK_WORN_EDGES_Expand_edges": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#worn-edge-expand-edges",
+		"NG_DYNMASK_WORN_EDGES_Edges_Strength": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#edges-strength",
 		"NG_DYNMASK_Z_MIX_V2": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask-z-mix-v2",
 			"video tutorial": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html#fx-dynamic-mask-types"
 		},
+		"NG_DYNMASK_Z_MIX_V2_Altitude_level": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#z-mix-v2-altitude-level",
+		"NG_DYNMASK_Z_MIX_V2_Dead_Line": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#z-mix-v2-dead-line",
+		"NG_DYNMASK_Z_MIX_V2_DeadLine_Noise": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#z-mix-v2-deadline-noise",
+		"NG_DYNMASK_Z_MIX_V2_Expand_Noise": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#z-mix-v2-expand-noise",
+		"NG_DYNMASK_Z_MIX_V2_Scale": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#z-mix-v2-scale",
+		"NG_DYNMASK_Z_MIX_V2_Stretch_Noise": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#z-mix-v2-stretch-noise",
+		"NG_DYNMASK_Z_MIX_V2_Object_World_Space": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#z-mix-v2-object-space",
+		"NG_DYNMASK_Z_MIX_V2_Invert_Z": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#z-mix-invert-z",
+
+
 		"NODE_UTILITY_MENU": {
 			"todo": ""
 		},
@@ -238,7 +396,25 @@
 			"reset_uv": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#reset-all-parameter",
 			"search_data_groups": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#search-module",
 			"extend_image": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#replace-module",
-			"boolean_socket": "",
+			"search_fxs": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#fx-layer-same-tools",
+			"boolean_socket": "GET_KEY",
+
+
+			"add_fx_module": {
+				"options": {
+					"ADD_FX": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#add-fx-layer",
+					"REPLACE_FX": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#fx-layer-same-tools",
+					"EMPTY_FX": "",
+				}
+			},
+
+
+			"color_lab": {
+				"options": {
+					"ASSIGN_TO_SOCKET": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#color-lab-button",
+					"ASSIGN_TO_PAINT": ""
+				}
+			},
 
 
 			"texture_manager": {
