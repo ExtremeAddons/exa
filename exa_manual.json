@@ -304,6 +304,192 @@
 		"NG_DYNMASK_Z_MIX_V2_Object_World_Space": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#z-mix-v2-object-space",
 		"NG_DYNMASK_Z_MIX_V2_Invert_Z": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#z-mix-invert-z",
 
+		"NG_GLASS": {
+			"documentation": ""
+		},
+		"NG_GLASS_Glass_Color": "",
+		"NG_GLASS_IOR": "",
+		"NG_GLASS_Mirror_Fx": "",
+		"NG_GLASS_Dirty_Roughness": "",
+		"NG_GLASS_Scale_Uniform": "",
+
+		"NG_BASIC_WATER": {
+			"documentation": ""
+		},
+		"NG_BASIC_WATER_RGB": "",
+		"NG_BASIC_WATER_Water_Fluid": "",
+		"NG_BASIC_WATER_Water_Speed": "",
+		"NG_BASIC_WATER_Wave_Strength": "",
+		"NG_BASIC_WATER_Scale": "",
+		"NG_BASIC_WATER_Roughness": "",
+		"NG_BASIC_WATER_Metallic_Fluid": "",
+		"NG_BASIC_WATER_Flowing_water": "",
+		"NG_BASIC_WATER_Reverse": "",
+		"NG_BASIC_WATER_Flow_Direction": "",
+
+		"NG_RUBBER_TIRES": {
+			"documentation": ""
+		},
+		"NG_RUBBER_TIRES_Color": "",
+		"NG_RUBBER_TIRES_Scale_Uniform": "",
+		"NG_RUBBER_TIRES_Roughness": "",
+		"NG_RUBBER_TIRES_Specular": "",
+
+		"NG_CAR_PAINT_001": {
+			"documentation": ""
+		},
+		"NG_CAR_PAINT_001_Facing_Color": "",
+		"NG_CAR_PAINT_001_Grazing_Color": "",
+		"NG_CAR_PAINT_001_Facing_Blend": "",
+		"NG_CAR_PAINT_001_Metallized": "",
+		"NG_CAR_PAINT_001_Flakes_Size": "",
+		"NG_CAR_PAINT_001_Flakes_Strength": "",
+		"NG_CAR_PAINT_001_Specular": "",
+		"NG_CAR_PAINT_001_Specular_Tint": "",
+		"NG_CAR_PAINT_001_Roughness": "",
+		"NG_CAR_PAINT_001_Clearcoat": "",
+		"NG_CAR_PAINT_001_Clearcoat_Roughness": "",
+		"NG_CAR_PAINT_001_Orange_Peal": "",
+		"NG_CAR_PAINT_001_Orange_Size": "",
+
+		"NG_BLUEPRINT_002": {
+			"documentation": ""
+		},
+		"NG_BLUEPRINT_002_Main_Color": "",
+		"NG_BLUEPRINT_002_Grid_Color": "",
+		"NG_BLUEPRINT_002_Specular": "",
+		"NG_BLUEPRINT_002_Roughness": "",
+		"NG_BLUEPRINT_002_Crosses_Thickness": "",
+		"NG_BLUEPRINT_002_Crosses_Span": "",
+		"NG_BLUEPRINT_002_S_Crosses_Span": "",
+		"NG_BLUEPRINT_002_S_Crosses_Thickness": "",
+		"NG_BLUEPRINT_002_S_Crosses_Scale": "",
+		"NG_BLUEPRINT_002_Shape_Size": "",
+		"NG_BLUEPRINT_002_Subtract": "",
+		"NG_BLUEPRINT_002_Circle_Shape": "",
+		"NG_BLUEPRINT_002_Loc_X": "",
+		"NG_BLUEPRINT_002_Loc_Y": "",
+		"NG_BLUEPRINT_002_Rotation": "",
+		"NG_BLUEPRINT_002_Scale_X": "",
+		"NG_BLUEPRINT_002_Scale_Y": "",
+		"NG_BLUEPRINT_002_Scale_Uniform": "",
+		"NG_BLUEPRINT_002_UV_Coordinate": "",
+		"NG_BLUEPRINT_002_World_Coordinate": "",
+
+		"NG_BLUEPRINT_001": {
+			"documentation": ""
+		},
+		"NG_BLUEPRINT_001_Emission_A": "",
+		"NG_BLUEPRINT_001_Base_Color": "",
+		"NG_BLUEPRINT_001_Line_Color": "",
+		"NG_BLUEPRINT_001_Emission_B": "",
+		"NG_BLUEPRINT_001_Small_Square_Line": "",
+		"NG_BLUEPRINT_001_Big_Square_Line": "",
+		"NG_BLUEPRINT_001_Metallic": "",
+		"NG_BLUEPRINT_001_Specular": "",
+		"NG_BLUEPRINT_001_Roughness": "",
+		"NG_BLUEPRINT_001_Bump": "",
+		"NG_BLUEPRINT_001_Distance": "",
+		"NG_BLUEPRINT_001_Invert": "",
+		"NG_BLUEPRINT_001_Transparent": "",
+		"NG_BLUEPRINT_001_Transparent_Invert": "",
+		"NG_BLUEPRINT_001_Rotation": "",
+		"NG_BLUEPRINT_001_lx": "",
+		"NG_BLUEPRINT_001_ly": "",
+		"NG_BLUEPRINT_001_Scale": "",
+		"NG_BLUEPRINT_001_World_Coordinate": "",
+
+		"NG_TRANSPARENT": {
+			"documentation": ""
+		},
+		"NG_TRANSPARENT_Transparent_Strength": "",
+
+		"NG_WIREFRAME_001": {
+			"documentation": ""
+		},
+		"NG_WIREFRAME_001_Base_Color": "",
+		"NG_WIREFRAME_001_Emission_A": "",
+		"NG_WIREFRAME_001_Transparent_A": "",
+		"NG_WIREFRAME_001_Edge_Color": "",
+		"NG_WIREFRAME_001_Emission_B": "",
+		"NG_WIREFRAME_001_Transparent_B": "",
+		"NG_WIREFRAME_001_Wireframe_Size": "",
+		"NG_WIREFRAME_001_Metallic": "",
+		"NG_WIREFRAME_001_Specular": "",
+		"NG_WIREFRAME_001_Roughness": "",
+
+		"PLASMA": {
+			"documentation": ""
+		},
+		"PLASMA_Color": "",
+		"PLASMA_From_Min": "",
+		"PLASMA_From_Max": "",
+		"PLASMA_Transparent": "",
+		"PLASMA_Emission_Strength": "",
+		"PLASMA_Animation_Speed": "",
+		"PLASMA_Reverse": "",
+		"PLASMA_Detail": "",
+		"PLASMA_Detail_Scale": "",
+		"PLASMA_Detail_Roughness": "",
+		"PLASMA_Distortion": "",
+		"PLASMA_rx": "",
+		"PLASMA_ry": "",
+		"PLASMA_rz": "",
+		"PLASMA_Scale": "",
+
+
+		"CHESS": {
+			"documentation": ""
+		},
+		"CHESS_Randomness": "",
+		"CHESS_Shrink_Squares": "",
+		"CHESS_Color_A": "",
+		"CHESS_Color_B": "",
+		"CHESS_Emission_A": "",
+		"CHESS_Emission_B": "",
+		"CHESS_Transp_1": "",
+		"CHESS_Transp_2": "",
+		"CHESS_Metallic": "",
+		"CHESS_Specular": "",
+		"CHESS_Roughness": "",
+		"CHESS_Rotation": "",
+		"CHESS_LocX": "",
+		"CHESS_LocY": "",
+		"CHESS_ScaleX": "",
+		"CHESS_ScaleY": "",
+		"CHESS_Scale_Uniform": "",
+
+
+		"BLEND": {
+			"documentation": ""
+		},
+		"BLEND_Color_A_B": "",
+		"BLEND_Color_B": "",
+		"BLEND_Emission_A": "",
+		"BLEND_Emission_B": "",
+		"BLEND_Transparent_A": "",
+		"BLEND_Transparent_B": "",
+		"BLEND_Metallic_A": "",
+		"BLEND_Metallic_B": "",
+		"BLEND_Specular_A": "",
+		"BLEND_Specular_B": "",
+		"BLEND_Roughness_A": "",
+		"BLEND_Roughness_B": "",
+		"BLEND_Glass_A": "",
+		"BLEND_Glass_B": "",
+		"BLEND_IOR": "",
+		"BLEND_Blend": "",
+		"BLEND_Sharp": "",
+		"BLEND_Noise": "",
+		"BLEND_Scale": "",
+		"BLEND_Distortion": "",
+		"BLEND_Animation": "",
+		"BLEND_Backface_Transparent": "",
+
+
+
+
+
 
 		"NODE_UTILITY_MENU": {
 			"todo": ""
