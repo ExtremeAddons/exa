@@ -517,7 +517,7 @@
 		"X_PBR_UTILITY_MAP_CTRL_From_Max": "",
 
 		"X_PBR_UTILITY_BUMP": {
-			"documentation": "",
+			"documentation": ""
 		},
 		"X_PBR_UTILITY_BUMP_Input_Map": "",
 		"X_PBR_UTILITY_BUMP_Bump_Strength": "",
@@ -650,7 +650,7 @@
 					"REPLACE_MATERIAL": "",
 					"REPLACE_MODULE": "",
 					"ADD_FX": "",
-					"REPLACE_FX": "",
+					"REPLACE_FX": ""
 				}
 			},
 
