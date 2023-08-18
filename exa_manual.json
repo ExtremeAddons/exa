@@ -491,7 +491,7 @@
 		"NG_BLEND_Backface_Transparent": "https://extreme-pbr-docs.readthedocs.io/en/latest/materials.html#backface-transparent-button",
 
 	    "X_PBR_UTILITY_RGB": {
-			"documentation": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#adjust-color-properties"
 		},
 		"X_PBR_UTILITY_RGB_Input_Map": "",
 		"X_PBR_UTILITY_RGB_Sample": "",
@@ -504,15 +504,15 @@
 		"X_PBR_UTILITY_RGB_Contrast": "",
 		"X_PBR_UTILITY_RGB_Hue": "",
 		"X_PBR_UTILITY_RGB_Saturation": "",
-		"X_PBR_UTILITY_RGB_Invert_Map": "",
+		"X_PBR_UTILITY_RGB_Invert_Map": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#adjust-color-properties",
 
 		"X_PBR_UTILITY_MAP_CTRL": {
-			"documentation": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#texture-manager-non-color"
 		},
 		"X_PBR_UTILITY_MAP_CTRL_Input_Map": "",
 		"X_PBR_UTILITY_MAP_CTRL_Strength": "",
 		"X_PBR_UTILITY_MAP_CTRL_Map_Exist": "",
-		"X_PBR_UTILITY_MAP_CTRL_Invert_Map": "",
+		"X_PBR_UTILITY_MAP_CTRL_Invert_Map": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#invert-map",
 		"X_PBR_UTILITY_MAP_CTRL_From_Min": "",
 		"X_PBR_UTILITY_MAP_CTRL_From_Max": "",
 
@@ -522,18 +522,18 @@
 		"X_PBR_UTILITY_BUMP_Input_Map": "",
 		"X_PBR_UTILITY_BUMP_Bump_Strength": "",
 		"X_PBR_UTILITY_BUMP_Bump_Distance": "",
-		"X_PBR_UTILITY_BUMP_Bump_Invert": "",
+		"X_PBR_UTILITY_BUMP_Bump_Invert": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#invert-map",
 		"X_PBR_UTILITY_BUMP_Map_Exist": "",
 		"X_PBR_UTILITY_BUMP_From_Min": "",
 		"X_PBR_UTILITY_BUMP_From_Max": "",
 
 		"X_PBR_UTILITY_NORMAL": {
-			"documentation": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#texture-manager-normal"
 		},
 		"X_PBR_UTILITY_NORMAL_Input_Map": "",
 		"X_PBR_UTILITY_NORMAL_Normal_Strength": "",
-		"X_PBR_UTILITY_NORMAL_Normal_Invert_X": "",
-		"X_PBR_UTILITY_NORMAL_Normal_Invert_Y": "",
+		"X_PBR_UTILITY_NORMAL_Normal_Invert_X": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#normal-invert-x-y",
+		"X_PBR_UTILITY_NORMAL_Normal_Invert_Y": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#normal-invert-x-y",
 		"X_PBR_UTILITY_NORMAL_Map_Exist": "",
 		"X_PBR_UTILITY_NORMAL_Gamma_Correction": "",
 
