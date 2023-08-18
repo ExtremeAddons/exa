@@ -490,6 +490,53 @@
 		"NG_BLEND_Animation": "https://extreme-pbr-docs.readthedocs.io/en/latest/materials.html#animation-value",
 		"NG_BLEND_Backface_Transparent": "https://extreme-pbr-docs.readthedocs.io/en/latest/materials.html#backface-transparent-button",
 
+	    "X_PBR_UTILITY_RGB": {
+			"documentation": ""
+		},
+		"X_PBR_UTILITY_RGB_Input_Map": "",
+		"X_PBR_UTILITY_RGB_Sample": "",
+		"X_PBR_UTILITY_RGB_Use_sample": "",
+		"X_PBR_UTILITY_RGB_Tolerance": "",
+		"X_PBR_UTILITY_RGB_Map_Exist": "",
+		"X_PBR_UTILITY_RGB_Diffuse_Color": "",
+		"X_PBR_UTILITY_RGB_Colorize_Strength": "",
+		"X_PBR_UTILITY_RGB_Exposure": "",
+		"X_PBR_UTILITY_RGB_Contrast": "",
+		"X_PBR_UTILITY_RGB_Hue": "",
+		"X_PBR_UTILITY_RGB_Saturation": "",
+		"X_PBR_UTILITY_RGB_Invert_Map": "",
+
+		"X_PBR_UTILITY_MAP_CTRL": {
+			"documentation": ""
+		},
+		"X_PBR_UTILITY_MAP_CTRL_Input_Map": "",
+		"X_PBR_UTILITY_MAP_CTRL_Strength": "",
+		"X_PBR_UTILITY_MAP_CTRL_Map_Exist": "",
+		"X_PBR_UTILITY_MAP_CTRL_Invert_Map": "",
+		"X_PBR_UTILITY_MAP_CTRL_From_Min": "",
+		"X_PBR_UTILITY_MAP_CTRL_From_Max": "",
+
+		"X_PBR_UTILITY_BUMP": {
+			"documentation": "",
+		},
+		"X_PBR_UTILITY_BUMP_Input_Map": "",
+		"X_PBR_UTILITY_BUMP_Bump_Strength": "",
+		"X_PBR_UTILITY_BUMP_Bump_Distance": "",
+		"X_PBR_UTILITY_BUMP_Bump_Invert": "",
+		"X_PBR_UTILITY_BUMP_Map_Exist": "",
+		"X_PBR_UTILITY_BUMP_From_Min": "",
+		"X_PBR_UTILITY_BUMP_From_Max": "",
+
+		"X_PBR_UTILITY_NORMAL": {
+			"documentation": ""
+		},
+		"X_PBR_UTILITY_NORMAL_Input_Map": "",
+		"X_PBR_UTILITY_NORMAL_Normal_Strength": "",
+		"X_PBR_UTILITY_NORMAL_Normal_Invert_X": "",
+		"X_PBR_UTILITY_NORMAL_Normal_Invert_Y": "",
+		"X_PBR_UTILITY_NORMAL_Map_Exist": "",
+		"X_PBR_UTILITY_NORMAL_Gamma_Correction": "",
+
 
 		"NODE_UTILITY_MENU": {
 			"todo": ""
@@ -584,7 +631,28 @@
 			"extend_image": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#replace-module",
 			"search_fxs": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#fx-layer-same-tools",
 			"docs_helper": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#docs-helper",
+			"show_tips": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#tips",
+			"search_data_images": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#search-data-images",
+			"remove_image": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#remove-texture",
 			"boolean_socket": "GET_KEY",
+
+			"copy_paste_image": {
+				"options": {
+					"COPY_IMAGE": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#copy-paste-texture",
+					"PASTE_IMAGE": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#copy-paste-texture"
+				}
+			},
+			"import_media": {
+				"options": {
+					"LOAD_IMAGE": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#import-image-texture",
+					"ADD_MODULE": "",
+					"DEFAULT": "",
+					"REPLACE_MATERIAL": "",
+					"REPLACE_MODULE": "",
+					"ADD_FX": "",
+					"REPLACE_FX": "",
+				}
+			},
 
 
 			"add_fx_module": {
@@ -685,7 +753,7 @@
 				"PURGE_DATA": "",
 				"RESET_AUTHOR": "",
 				"SILENCE_NODE": "",
-				"ASSIGN_WINMAN_MAP": "",
+				"ASSIGN_WINMAN_MAP": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#add",
 				"ADJUST_SCENE": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#something-went-wrong-press-this-button"
 
 			},
@@ -758,14 +826,16 @@
 			},
 			"ExtremePbrNodeGProperties": {
 				"show_group_props": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#show-hide-group",
-				"ng_show_tips": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#tips"
+				"ng_show_tips": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#tips",
+				"use_alpha_from_diffuse": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#use-alpha-channel"
 
 			},
 			"ExaSocketProperties": {
 				"brush_paint_type": ""
 			},
 			"ExtremePbrNodeProperty": {
-				"restore_inputs_default_values": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#reset-values"
+				"restore_inputs_default_values": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#reset-values",
+				"mute_node": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#mute-texture"
 			},
 			"ExtremePbrPreferences": {
 				"minimize_main_panel": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#minimize-button",
