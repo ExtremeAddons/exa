@@ -674,17 +674,25 @@
 			"boolean_socket": "GET_KEY",
 
 
+
+			"save_material": {
+				"options":{
+					"SAVE_MATERIAL": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#save-material",
+					"SAVE_FX": "",
+					"SAVE_MODULE": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#save-module"
+				}
+			},
 			"shader_overlay_utils": {
 				"options": {
 					"SELECT_SAME_CONTEXT_OVERLAY_OBJECTS": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#select-objects",
-					"SELECT_SAME_CONTEXT_OVERRIDE_OBJECTS": ""
+					"SELECT_SAME_CONTEXT_OVERRIDE_OBJECTS": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_override.html#select-objects"
 					}
 			},
 
 			"material_settings_overlay": {
 				"options": {
 					"SHADER_OVERLAY": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#mat-settings-button",
-					"MATERIAL_OVERRIDE": ""
+					"MATERIAL_OVERRIDE": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#mat-settings-button"
 				}
 			},
 
@@ -695,8 +703,8 @@
 					"REPLACE_SHADER_OVERLAY": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#replace",
 					"REPLACE_MIXER": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#replace-mixer-node",
 					"REMOVE_FROM_DATA_MATERIAL": "",
-					"ADD_OVERRIDE": "",
-					"REMOVE_OVERRIDE": ""
+					"ADD_OVERRIDE": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_override.html#add-override",
+					"REMOVE_OVERRIDE": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_override.html#remove-override"
 				}
 			},
 
@@ -816,7 +824,7 @@
 				"ADJUST_NODE_TREE": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#adjust-node-tree",
 				"ADJUST_ALL_NODE_TREE": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#adjust-all-material-node-tree",
 				"PURGE_DATA": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#box-utility-dropdown-menu",
-				"RESET_AUTHOR": "",
+				"RESET_AUTHOR": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#save-material",
 				"SILENCE_NODE": "",
 				"ASSIGN_WINMAN_MAP": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#add",
 				"ADJUST_SCENE": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#something-went-wrong-press-this-button"
@@ -879,7 +887,16 @@
 				"normal_generator_from_nodes": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#generated-from",
 				"mso_material_from": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#add-from-library",
 				"enum_mixer_overlay": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#mixer-node",
-				"data_materials": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#add-from-data-material"
+				"data_materials": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#add-from-data-material",
+				"render_engine": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#render-engine",
+				"device_compute": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#device",
+				"render_samples": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#render-quality",
+				"website_name": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#author-info",
+				"author": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#author-info",
+				"website_url": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#author-info",
+				"license": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#author-info",
+				"license_link": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#author-info"
+
 			},
 			"ExtremePbrObjectProp": {
 				"smooth_step": ""
