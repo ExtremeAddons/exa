@@ -114,6 +114,9 @@
 		"NG_FX_NEXUS_LAYER" : {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#fx-layer"
 		},
+		"SHADER_OVERLAY_MODULE": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#material-layout"
+		},
 		"NG_FX_NEXUS_LAYER_Exclude_Mask": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#exclude-mask",
 		"NG_FX_NEXUS_LAYER_Invert_Fx": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#exclude-mask",
 		"NG_FX_NEXUS_LAYER_From_Min": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#from-min-from-max",
@@ -572,8 +575,6 @@
 		"NG_SHADER_GRADIENT_World_Coordinate": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#world-coordinate",
 
 
-
-
 		"NODE_UTILITY_MENU": {
 			"todo": ""
 		},
@@ -691,7 +692,7 @@
 				"options": {
 					"ADD": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#add",
 					"REMOVE": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#remove",
-					"REPLACE_SHADER_OVERLAY": "",
+					"REPLACE_SHADER_OVERLAY": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#replace",
 					"REPLACE_MIXER": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#replace-mixer-node",
 					"REMOVE_FROM_DATA_MATERIAL": "",
 					"ADD_OVERRIDE": "",
@@ -877,7 +878,8 @@
 				"use_existing_images": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#recycle-if-exists",
 				"normal_generator_from_nodes": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#generated-from",
 				"mso_material_from": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#add-from-library",
-				"enum_mixer_overlay": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#mixer-node"
+				"enum_mixer_overlay": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#mixer-node",
+				"data_materials": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#add-from-data-material"
 			},
 			"ExtremePbrObjectProp": {
 				"smooth_step": ""
@@ -895,7 +897,8 @@
 				"show_group_props": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#show-hide-group",
 				"ng_show_tips": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#tips",
 				"use_alpha_from_diffuse": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#use-alpha-channel",
-				"use_normal_generator": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#use-normal-generated"
+				"use_normal_generator": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#use-normal-generated",
+				"uv_mapping_type": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#uv-mapping-type"
 
 			},
 			"ExaSocketProperties": {
