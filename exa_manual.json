@@ -108,6 +108,9 @@
 		"MISSING_FILES_ASSET_BROWSER_CREATION": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/make_asset_browser.html#missing-files-during-the-asset-browser-creation"
 		},
+		"MATERIAL_SETTINGS_OVERLAY": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#material-settings-panel"
+		},
 		"NG_FX_NEXUS_LAYER" : {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#fx-layer"
 		},
@@ -636,6 +639,34 @@
 			"remove_image": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#remove-texture",
 			"boolean_socket": "GET_KEY",
 
+
+			"shader_overlay_utils": {
+				"options": {
+					"SELECT_SAME_CONTEXT_OVERLAY_OBJECTS": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#select-objects",
+					"SELECT_SAME_CONTEXT_OVERRIDE_OBJECTS": ""
+					}
+			},
+
+			"material_settings_overlay": {
+				"options": {
+					"SHADER_OVERLAY": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#mat-settings-button",
+					"MATERIAL_OVERRIDE": ""
+				}
+			},
+
+			"master_shader_overlay": {
+				"options": {
+					"ADD": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#add",
+					"REMOVE": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#remove",
+					"REPLACE_SHADER_OVERLAY": "",
+					"REPLACE_MIXER": "",
+					"REMOVE_FROM_DATA_MATERIAL": "",
+					"ADD_OVERRIDE": "",
+					"REMOVE_OVERRIDE": ""
+				}
+			},
+
+
 			"copy_paste_image": {
 				"options": {
 					"COPY_IMAGE": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#copy-paste-texture",
@@ -747,10 +778,10 @@
 
 			},
 			"material_utils": {
-				"REMOVE_UNUSED_SLOTS": "",
-				"ADJUST_NODE_TREE": "",
-				"ADJUST_ALL_NODE_TREE": "",
-				"PURGE_DATA": "",
+				"REMOVE_UNUSED_SLOTS": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#box-utility-dropdown-menu",
+				"ADJUST_NODE_TREE": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#adjust-node-tree",
+				"ADJUST_ALL_NODE_TREE": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#adjust-all-material-node-tree",
+				"PURGE_DATA": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#box-utility-dropdown-menu",
 				"RESET_AUTHOR": "",
 				"SILENCE_NODE": "",
 				"ASSIGN_WINMAN_MAP": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#add",
@@ -809,8 +840,11 @@
 				"bake_alpha_from_combined": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
 				"uv_lock_x": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#lock-x-y",
 				"uv_lock_y": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#lock-x-y",
-				"menu_tag_search": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-for-tag"
-
+				"menu_tag_search": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-for-tag",
+				"use_existing_images": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#recycle-if-exists",
+				"normal_generator_from_nodes": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#generated-from",
+				"mso_material_from": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#add-from-library",
+				"enum_mixer_overlay": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#mixer-node"
 			},
 			"ExtremePbrObjectProp": {
 				"smooth_step": ""
@@ -827,7 +861,8 @@
 			"ExtremePbrNodeGProperties": {
 				"show_group_props": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#show-hide-group",
 				"ng_show_tips": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#tips",
-				"use_alpha_from_diffuse": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#use-alpha-channel"
+				"use_alpha_from_diffuse": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#use-alpha-channel",
+				"use_normal_generator": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#use-normal-generated"
 
 			},
 			"ExaSocketProperties": {
