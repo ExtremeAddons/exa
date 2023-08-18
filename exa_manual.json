@@ -131,6 +131,14 @@
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask-noise",
 			"video tutorial": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html#fx-dynamic-mask-types"
 		},
+
+		"NG_DYNMASK_NOISE_Detailed_deadlift": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#detailed-deadlift",
+		"NG_DYNMASK_NOISE_Invert_Mask": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#invert-mask",
+		"NG_DYNMASK_NOISE_Roughness": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#id16",
+		"NG_DYNMASK_NOISE_Detail": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#detail",
+		"NG_DYNMASK_NOISE_Distortion": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#distortion",
+		"NG_DYNMASK_NOISE_Scale": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#scale",
+
 		"NG_DYNMASK_WORN_EDGES": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask-worn-edges",
 			"video tutorial": "https://extreme-pbr-docs.readthedocs.io/en/latest/video_tutorials.html#fx-dynamic-mask-types"
@@ -173,7 +181,7 @@
 			"todo": ""
 		},
 		"SING_UP": {
-			"todo": ""
+			"todo": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#step-1-addon-activation"
 		},
 		"SINGLE_INSTALLER": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#download-single-material"
@@ -206,15 +214,18 @@
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#unrecognized-material"
 		},
 		"UPDATE_CORE": {
-			"documentation": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#update-core"
+		},
+		"TROUBLESHOOTING": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/troubleshooting.html"
 		}
 	},
 	"manual_key_maps": {
 		"operators": {
+			"open_web_browser": "",
 			"search_categories": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-category",
 			"auto_shade_smooth": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#smart-shade-smooth",
 			"reload_current_preview_icons": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#reload-preview-icons",
-			"menu_tag_search": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-for-tag",
 			"search_materials": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-material-by-entering-text",
 			"tag_manager_panel": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#edit-tags",
 			"search_tags": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#edit-tags",
@@ -225,7 +236,17 @@
 			"modal_bake": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#bake-editor-button",
 			"mapping_editor_panel": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#mapping-editor-button",
 			"reset_uv": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#reset-all-parameter",
+			"search_data_groups": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#search-module",
+			"extend_image": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#replace-module",
+			"boolean_socket": "",
 
+
+			"texture_manager": {
+				"options": {
+					"TEXTURE_MANAGER": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#texture-manager-button",
+					"SHADER_MAKER_PAINT": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html#smp-texture-manager-button"
+				}
+			},
 
 			"choose_path": {
 				"options": {
@@ -257,10 +278,10 @@
         	},
 			"add_material" : {
 				"options" : {
-					"ADD_MODULE" : "",
+					"ADD_MODULE" : "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#add-module",
 					"REPLACE_MATERIAL" : "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#replace",
 					"DEFAULT" : "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#add-new",
-					"REPLACE_MODULE" : "",
+					"REPLACE_MODULE" : "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#replace-module",
 					"IMPORT_EMPTY_MODULE" : ""
 				}
 			},
@@ -308,7 +329,7 @@
 			"info_tag_panel": {
 				"options": {
 					"SHOW_JSON_MAT_INFO": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#info-tag",
-					"SHOW_MAT_INFO": ""
+					"SHOW_MAT_INFO": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#info"
 				}
 			}
 
@@ -356,9 +377,8 @@
 				"c_bake_transmission": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
 				"bake_alpha_from_combined": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#bake-maps-cycles-standard-mode",
 				"uv_lock_x": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#lock-x-y",
-				"uv_lock_y": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#lock-x-y"
-
-
+				"uv_lock_y": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#lock-x-y",
+				"menu_tag_search": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-for-tag"
 
 			},
 			"ExtremePbrObjectProp": {
@@ -374,15 +394,17 @@
 
 			},
 			"ExtremePbrNodeGProperties": {
-				"dynamic_masks": ""
+				"show_group_props": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#show-hide-group",
+				"ng_show_tips": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#tips"
+
 			},
 			"ExaSocketProperties": {
 				"brush_paint_type": ""
 			},
 			"ExtremePbrNodeProperty": {
-				"node_group": ""
+				"restore_inputs_default_values": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#reset-values"
 			},
-			"AddonPreferences": {
+			"ExtremePbrPreferences": {
 				"minimize_main_panel": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#minimize-button",
 				"material_type": ""
 			}
