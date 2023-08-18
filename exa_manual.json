@@ -540,6 +540,39 @@
 		"X_PBR_UTILITY_NORMAL_Map_Exist": "",
 		"X_PBR_UTILITY_NORMAL_Gamma_Correction": "",
 
+		"NG_SHADER_GRADIENT_GLITCH_V1": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#shader-gradient-glitch-v2"
+		},
+		"NG_SHADER_GRADIENT_GLITCH_V1_Location": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#location",
+		"NG_SHADER_GRADIENT_GLITCH_V1_Flip_Location": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#flip-location",
+		"NG_SHADER_GRADIENT_GLITCH_V1_Rotation_X": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#rotation-x-y",
+		"NG_SHADER_GRADIENT_GLITCH_V1_Rotation_Y": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#rotation-x-y",
+		"NG_SHADER_GRADIENT_GLITCH_V1_From_Min": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#from-min-max",
+		"NG_SHADER_GRADIENT_GLITCH_V1_From_Max": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#from-min-max",
+		"NG_SHADER_GRADIENT_GLITCH_V1_Strength": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#strength",
+		"NG_SHADER_GRADIENT_GLITCH_V1_World_Coordinate": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#world-coordinate",
+		"NG_SHADER_GRADIENT_GLITCH_V1_Glitch_On_Glc": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#glitch-on-off",
+		"NG_SHADER_GRADIENT_GLITCH_V1_Glc_Frequency": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#glc-frequency",
+		"NG_SHADER_GRADIENT_GLITCH_V1_Glc_Speed": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#glc-speed",
+		"NG_SHADER_GRADIENT_GLITCH_V1_Glc_Scale_OSC": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#glc-scale-osc",
+		"NG_SHADER_GRADIENT_GLITCH_V1_Glc_Phase": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#glc-phase",
+		"NG_SHADER_GRADIENT_GLITCH_V1_Glc_Random_Per_Object": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#glc-random-per-object",
+
+
+		"NG_SHADER_GRADIENT": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#shader-gradient"
+		},
+		"NG_SHADER_GRADIENT_Location": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#location",
+		"NG_SHADER_GRADIENT_Flip_Location": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#flip-location",
+		"NG_SHADER_GRADIENT_Rotation_X": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#rotation-x-y",
+		"NG_SHADER_GRADIENT_Rotation_Y": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#rotation-x-y",
+		"NG_SHADER_GRADIENT_From_Min": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#from-min-max",
+		"NG_SHADER_GRADIENT_From_Max": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#from-min-max",
+		"NG_SHADER_GRADIENT_Strength": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#strength",
+		"NG_SHADER_GRADIENT_World_Coordinate": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#world-coordinate",
+
+
+
 
 		"NODE_UTILITY_MENU": {
 			"todo": ""
@@ -659,7 +692,7 @@
 					"ADD": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#add",
 					"REMOVE": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#remove",
 					"REPLACE_SHADER_OVERLAY": "",
-					"REPLACE_MIXER": "",
+					"REPLACE_MIXER": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#replace-mixer-node",
 					"REMOVE_FROM_DATA_MATERIAL": "",
 					"ADD_OVERRIDE": "",
 					"REMOVE_OVERRIDE": ""
