@@ -671,10 +671,44 @@
 			"show_tips": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#tips",
 			"search_data_images": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#search-data-images",
 			"remove_image": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#remove-texture",
+			"toggle_wireframe": "https://extreme-pbr-docs.readthedocs.io/en/latest/displacement.html#toggle-wireframe",
+			"bake_displacement": "https://extreme-pbr-docs.readthedocs.io/en/latest/displacement.html#bake-displacement",
+			"make_asset_browser": "https://extreme-pbr-docs.readthedocs.io/en/latest/make_asset_browser.html#make-asset-browser",
+			"make_user_library": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#make-user-library",
+
+
 			"boolean_socket": "GET_KEY",
 
+			"expansion_pack_manager": {
+				"options": {
+					"ADD": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#add-library-expansion",
+					"REMOVE": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#remove-expansion"
+				}
+			},
 
 
+			"reset_libraries_path": {
+				"options": {
+					"RESET_DEFAULT_LIB_PATH": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#unlink-library",
+					"RESET_USER_LIB_PATH": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#unlink-library",
+					"RESET_TEMP_PATHS": ""
+				}
+			},
+
+
+			"remove_cat_and_files": {
+				"options": {
+					"REMOVE_CATEGORY": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#delete-category",
+					"REMOVE_MATERIAL": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#delete-material"
+				}
+			},
+
+			"add_category": {
+				"options": {
+					"ADD_NEW_CATEGORY": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#add-cat",
+					"RENAME_CATEGORY": ""
+				}
+			},
 			"save_material": {
 				"options":{
 					"SAVE_MATERIAL": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#save-material",
@@ -757,11 +791,11 @@
 					"MAKE_DIRS_PATHS": "",
 					"USER_LIB_EXIST": "",
 					"CREATE_USER_LIB": "",
-					"LINK_DEFAULT_LIB": "",
+					"LINK_DEFAULT_LIB": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#choose-default-library",
 					"LINK_USER_LIB": "",
 					"RESET_DEFAULT_LIB_PATH": "",
 					"RESET_USER_LIB_PATH": "",
-					"ADD_EXPANSION_PATH": "",
+					"ADD_EXPANSION_PATH": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#expansion-path",
 					"BAKE_PATH": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html#choose-bake-destination"
 
 				}
@@ -820,14 +854,16 @@
 
 			},
 			"material_utils": {
-				"REMOVE_UNUSED_SLOTS": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#box-utility-dropdown-menu",
-				"ADJUST_NODE_TREE": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#adjust-node-tree",
-				"ADJUST_ALL_NODE_TREE": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#adjust-all-material-node-tree",
-				"PURGE_DATA": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#box-utility-dropdown-menu",
-				"RESET_AUTHOR": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#save-material",
-				"SILENCE_NODE": "",
-				"ASSIGN_WINMAN_MAP": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#add",
-				"ADJUST_SCENE": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#something-went-wrong-press-this-button"
+				"options": {
+					"REMOVE_UNUSED_SLOTS": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#box-utility-dropdown-menu" ,
+					"ADJUST_NODE_TREE": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#adjust-node-tree" ,
+					"ADJUST_ALL_NODE_TREE": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#adjust-all-material-node-tree" ,
+					"PURGE_DATA": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#box-utility-dropdown-menu" ,
+					"RESET_AUTHOR": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#save-material" ,
+					"SILENCE_NODE": "" ,
+					"ASSIGN_WINMAN_MAP": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#add" ,
+					"ADJUST_SCENE": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#something-went-wrong-press-this-button"
+				}
 
 			},
 			"info_tag_panel": {
@@ -838,6 +874,7 @@
 			}
 
 		},
+
 		"PointerProperty": {
 			"ExtremePbrSceneProp": {
 				"libraries_selector": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#library-selector-drop-down-menu",
@@ -895,21 +932,30 @@
 				"author": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#author-info",
 				"website_url": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#author-info",
 				"license": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#author-info",
-				"license_link": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#author-info"
-
+				"license_link": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#author-info",
+				"cat_name_save": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#add-cat",
+				"render_object": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#icon-type",
+				"render_stage": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#background",
+				"render_rotation": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#uv-rotation",
+				"render_scale": "https://extreme-pbr-docs.readthedocs.io/en/latest/save_editor.html#uv-scale",
+				"displace_type": "https://extreme-pbr-docs.readthedocs.io/en/latest/displacement.html#displace-type"
 			},
+
 			"ExtremePbrObjectProp": {
 				"smooth_step": ""
 			},
+
 			"ExtremePbrMaterialProp": {
 				"displace_on_off": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#displace-on-off",
 				"uv_mapping_type": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uv-mapping-type",
 				"uvs_scale": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-size",
 				"uvs_position_x": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-pos-x-y",
 				"uvs_position_y": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-pos-x-y",
-				"uvs_rotation": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-rot"
+				"uvs_rotation": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-rot",
+				"hide_displace": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#hide-displace"
 
 			},
+
 			"ExtremePbrNodeGProperties": {
 				"show_group_props": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#show-hide-group",
 				"ng_show_tips": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#tips",
@@ -918,13 +964,16 @@
 				"uv_mapping_type": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#uv-mapping-type"
 
 			},
+
 			"ExaSocketProperties": {
 				"brush_paint_type": ""
 			},
+
 			"ExtremePbrNodeProperty": {
 				"restore_inputs_default_values": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#reset-values",
 				"mute_node": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#mute-texture"
 			},
+
 			"ExtremePbrPreferences": {
 				"minimize_main_panel": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#minimize-button",
 				"material_type": ""
