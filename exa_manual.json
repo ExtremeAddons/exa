@@ -117,6 +117,9 @@
 		"SHADER_OVERLAY_MODULE": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_overlay.html#material-layout"
 		},
+		"INSTALL_LIBRARIES": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation.html#install-the-library"
+		},
 		"NG_FX_NEXUS_LAYER_Exclude_Mask": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#exclude-mask",
 		"NG_FX_NEXUS_LAYER_Invert_Fx": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#exclude-mask",
 		"NG_FX_NEXUS_LAYER_From_Min": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#from-min-from-max",
@@ -675,9 +678,37 @@
 			"bake_displacement": "https://extreme-pbr-docs.readthedocs.io/en/latest/displacement.html#bake-displacement",
 			"make_asset_browser": "https://extreme-pbr-docs.readthedocs.io/en/latest/make_asset_browser.html#make-asset-browser",
 			"make_user_library": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#make-user-library",
+			"reset_default_color_space": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#try-to-reset-to-default",
+			"reload_addon_nodes": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#reload-all-mixers",
+			"restore_all_icons_patch": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#regenerate-all-previews-and-icon",
+
 
 
 			"boolean_socket": "GET_KEY",
+
+
+
+			"os_remove": {
+				"options": {
+					"REMOVE_FIRST_MESSAGE": "",
+					"RESET_MEX": "",
+					"PURGE_EXA_CACHE": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#purge-extremeaddons-cache"
+				}
+			},
+
+			"search_color_space": {
+				"options": {
+					"RGB": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#rgb",
+					"BW": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#bw"
+				}
+			},
+
+			"choose_exapacks": {
+				"options": {
+					"OPEN_BROWSER": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation.html#step-3",
+					"REMOVE": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation.html#remove-exapack-from-installer"
+				}
+			},
 
 			"expansion_pack_manager": {
 				"options": {
@@ -976,7 +1007,21 @@
 
 			"ExtremePbrPreferences": {
 				"minimize_main_panel": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#minimize-button",
-				"material_type": ""
+				"preferences_tabs": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#preferences",
+				"material_type": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#material-type",
+				"check_update_frequency_control": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#check-for-updates-every",
+				"show_sockets": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#show-hidden-sockets",
+                "show_node_group_options": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#show-group-options",
+				"default_uv_mapping_type": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#default-mapping-type",
+				"show_labels": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#show-material-popup-label",
+				"icons_preview_size": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#icon-preview-dimension",
+				"icons_popup_size": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#icons-popup-size",
+				"hide_shader_overlay": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#hide-shader-overlay-panel",
+				"hide_material_override": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#hide-material-override-panel",
+				"preserve_bug_crash": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#anti-crash",
+				"i_have_account_on_extreme_addons": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#i-have-an-account-on-extreme-addons",
+				"show_creator_utility": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#show-creator-utility",
+				"show_installer_debug": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#show-download-debug"
 			}
 		}
 	}
