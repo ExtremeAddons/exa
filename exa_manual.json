@@ -7,7 +7,7 @@
 	"doc_homepage": "https://extreme-pbr-docs.readthedocs.io/en/latest/",
 	"manual_urls": {
 		"ADDON_ACTIVATION": {
-			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#step-1-addon-activation"
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#configuration",
 		},
 		"ADD_REMOVE_REPLACE": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#add-replace-remove-buttons"
@@ -653,7 +653,6 @@
 	},
 	"manual_key_maps": {
 		"operators": {
-			"open_web_browser": "",
 			"search_categories": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-category",
 			"auto_shade_smooth": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#smart-shade-smooth",
 			"reload_current_preview_icons": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#reload-preview-icons",
@@ -681,9 +680,12 @@
 			"reset_default_color_space": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#try-to-reset-to-default",
 			"reload_addon_nodes": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#reload-all-mixers",
 			"restore_all_icons_patch": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#regenerate-all-previews-and-icon",
+			"check_for_updates": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#check-addon-updates",
+   			"get_library_updates": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#check-library-updates",
+			"try_compile_exapack": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#try-compile-exapack",
+			"remove_volume": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#remove-volume",
 
-
-
+			"open_web_browser": "GET_KEY",
 			"boolean_socket": "GET_KEY",
 
 
@@ -1021,7 +1023,9 @@
 				"preserve_bug_crash": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#anti-crash",
 				"i_have_account_on_extreme_addons": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#i-have-an-account-on-extreme-addons",
 				"show_creator_utility": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#show-creator-utility",
-				"show_installer_debug": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#show-download-debug"
+				"show_installer_debug": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#show-download-debug",
+				"show_addon_updates": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#show-addon-updates",
+				"show_library_updates": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#show-library-updates"
 			}
 		}
 	}
