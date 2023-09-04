@@ -223,6 +223,7 @@
 		"NG_NEXUS_MODULE_sz": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#scale-xyz",
 		"NG_NEXUS_MODULE_Scale_Uniform": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#scale-uniform",
 		"NG_NEXUS_MODULE_World_Coordinate": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#world-coordinate",
+		"NG_NEXUS_MODULE_Random_Location": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#random-location",
 
 
 		"NG_NEXUS_PAINTER": {
@@ -277,6 +278,7 @@
 		"NG_SHADER_MODULE_sz": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#scale-xyz",
 		"NG_SHADER_MODULE_Scale_Uniform": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#scale-uniform",
 		"NG_SHADER_MODULE_World_Coordinate": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#world-coordinate",
+		"NG_SHADER_MODULE_Random_Location": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#random-location",
 
 		"NG_DYNMASK_PAINT": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#dynamic-mask",
