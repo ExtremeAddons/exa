@@ -7,7 +7,7 @@
 	"doc_homepage": "https://extreme-pbr-docs.readthedocs.io/en/latest/",
 	"manual_urls": {
 		"ADDON_ACTIVATION": {
-			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#configuration",
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation_old.html#configuration"
 		},
 		"ADD_REMOVE_REPLACE": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#add-replace-remove-buttons"
@@ -686,6 +686,7 @@
    			"get_library_updates": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#check-library-updates",
 			"try_compile_exapack": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#try-compile-exapack",
 			"remove_volume": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#remove-volume",
+			"restore_node_value": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#reset-values",
 
 			"open_web_browser": "GET_KEY",
 			"boolean_socket": "GET_KEY",
@@ -699,6 +700,7 @@
 					"PURGE_EXA_CACHE": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#purge-extremeaddons-cache"
 				}
 			},
+
 
 			"search_color_space": {
 				"options": {
