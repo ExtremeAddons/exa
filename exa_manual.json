@@ -120,6 +120,10 @@
 		"INSTALL_LIBRARIES": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/installation.html#install-the-library"
 		},
+		"NEXUS_MODULE_CONVERSION": {
+			"documentation": ""
+		},
+
 		"NG_FX_NEXUS_LAYER_Exclude_Mask": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#exclude-mask",
 		"NG_FX_NEXUS_LAYER_Invert_Fx": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#exclude-mask",
 		"NG_FX_NEXUS_LAYER_From_Min": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#from-min-from-max",
