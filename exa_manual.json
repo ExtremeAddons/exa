@@ -1022,9 +1022,7 @@
 				"use_emission": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#use-sockets",
 				"use_transmission": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#use-sockets",
 				"use_alpha": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#use-sockets",
-				"show_projection_settings": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#projection-settings",
-				"projection": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#projection-settings",
-				"coordinate_type": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#projection-settings"
+				"show_projection_settings": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#projection-settings"
 			},
 
 			"ExaSocketProperties": {
@@ -1033,7 +1031,9 @@
 
 			"ExtremePbrNodeProperty": {
 				"restore_inputs_default_values": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#reset-values",
-				"mute_node": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#mute-texture"
+				"mute_node": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#mute-texture",
+				"projection": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#projection-settings",
+				"coordinate_type": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#projection-settings"
 			},
 
 			"ExtremePbrPreferences": {
