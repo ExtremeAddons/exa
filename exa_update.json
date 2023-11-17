@@ -10,6 +10,38 @@
 		"description": ""
 	},
 	"updates": {
+		"4.1.111": {
+			"date": "17-11-2023",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Added - Anti Tile",
+					"description": "A new anti-tile function has been added for all materials based on textures, even for those imported with Shader Maker"
+				},
+				"2": {
+					"title": "Bug Fix - Asset Browser Creation",
+					"description": "An error occurred randomly, we think we fixed it by fixing the function that copied the context with bpy.context.copy(), now the context is no longer copied"
+				},
+				"3": {
+					"title": "Fixed - Asset Browser Creation Time (For Blender 4.x)",
+					"description": "Speeded up the process of creating the asset browser in Blender 4, in this version of Blender, it was very slow, this has been fixed"
+				},
+				"4": {
+					"title": "Fixed - Time to create the material",
+					"description": "The time to create the material via the Add-New button has been speeded up by about x4 times, as the reloading of the textures was unnecessarily attempted in the function of assigning the textures in the image nodes, now an exception has been put that prevents the reloading as it was useless"
+				},
+				"5": {
+					"title": "Bug Fix - Auto Re-Link Libraries Button",
+					"description": "The Auto Re-Link button introduced in the previous version, if pressed without any .json files with the logs, this produced an error message, now instead a Popup message will be displayed that will warn that there are no libraries to be linked"
+				}
+			}
+		},
 		"4.1.110": {
 			"date": "13-11-2023",
 			"name": "Extreme PBR",

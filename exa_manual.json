@@ -12,6 +12,9 @@
 		"ADD_REMOVE_REPLACE": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#add-replace-remove-buttons"
 		},
+		"ANTI_TILE_PANEL": {
+			"documentation": ""
+		},
 		"BAKE_MENU": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html"
 		},
