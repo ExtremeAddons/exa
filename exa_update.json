@@ -7,7 +7,7 @@
 		"lock_operators": [
 			"EXTREMEPBR_OT_update_core_v2"
 		],
-		"description": "Due to continuous disruptions by the company that is managing the server, at this moment it is not possible to update the addon directly from our site. You will have to do this manually. Sorry for the inconvenience."
+		"description": "At this moment it is not possible to update the addon directly from our site. You will have to do this manually. Sorry for the inconvenience."
 	},
 	"updates": {
 		"4.1.111": {
