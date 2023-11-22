@@ -1,6 +1,6 @@
 {
 	"communications": {
-		"install_lib_mex": "If there are any slowness issues, try disconnecting the VPN if you are using it. We will shortly intervene on the API of our Site, to improve the download speed. Thank you for the support. Andrew_D",
+		"install_lib_mex": "_",
 		"emergency": ""
 	},
 	"workinprogressblock": {
@@ -10,6 +10,54 @@
 		"description": "At this moment it is not possible to update the addon directly from our site. You will have to do this manually. Sorry for the inconvenience."
 	},
 	"updates": {
+		"4.1.112": {
+			"date": "22-11-2023",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Fix - Misc Tab N-Panel",
+					"description": "Some Extreme PBR popover panels were not registered correctly, so a TAB with the name Misc appeared, this was not an expected behavior, in addition by pressing on Misc tab Blender went into crash, this was solved by inserting bl_category = 'Extreme PBR' in all the popover panels of Extreme PBR"
+				},
+				"2": {
+					"title": "Change - Material Editor for Simple PBR and other Materials",
+					"description": "Now the Material Editor if you are working on a Simple PBR material or any other material that is not Nexus type will be drawn with the Blender standard. This was necessary as the materials can be very complex or even simple, and needed a well-designed standard interface. Materials with Nexus nodes will continue to use the special Extreme PBR interface as it is dedicated and very functional"
+				},
+				"3": {
+					"title": "Added - Convert Material To Nexus Button",
+					"description": "In accordance with the previous point, in the Material Editor panel, if the context material is not Nexus type, a 'Convert to Nexus' button will appear, this is used to convert materials based on textures, and will only work if the nodes contain images with standard nomenclature, otherwise it will not convert the material to Nexus"
+				},
+				"4": {
+					"title": "Improved - Try to get Displace for Any Material",
+					"description": "The displace button, in the past, only worked for Nexus and Simple PBR materials of Extreme PBR, now instead the button tries to recover the displace map provided that there is a texture nomenclature of the material with the classic nomenclature standard (eg: Diffuse = diffuse, col, diff, etc ..., Normal = normal, nor, etc ...), if the displace or bump map does not exist, the button will not appear"
+				},
+				"5": {
+					"title": "Improved - Displace Type Property",
+					"description": "The displace type property, before it was linked to the scene, now it is linked to the object. This is because previously switching from Displace Modifier to Microdisplacement, all the objects in the scene were converted to the chosen displacement. This was not good practice, as unselected objects should not change the type of displacement. Now this updates the type of displacement only on the active object and on all its materials (If they have active displacement) and possibly on the objects with the same data (Mesh)"
+				},
+				"6": {
+					"title": "Improved - Anti Tile For All Materials",
+					"description": "The anti-tile now works on Texture-Based materials even if not created with Extreme PBR, the condition for which they work must be to have in the node tree A Coordinate node connected to the Mapping node, which in turn is connected to the texture images node and a principled BSDF and a texture connected to the Base Color input of the Principled BSDF, this is quite the standard of a simple material based on textures"
+				},
+				"7": {
+					"title": "Fix - Use Anti tile on Shader Overlay",
+					"description": "Due to a code error, in the previous version it was not possible to apply an anti tile to the shader overlay material, now the possibility of applying an anti tile has been added also to the shader overlay materials directly from the shader overlay panel."
+				},
+				"8": {
+					"title": "Fix - Panels Draw",
+					"description": "Some panels were not drawn correctly regarding the nodes and their sliders both in Shader Overlay and Material Override, this has been fixed"
+				},
+				"9": {
+					"title": "Optimized - Add Material time",
+					"description": "Although optimizations had already been made in the previous update, an unnecessary check was still performed on images when loading materials from the Extreme PBR Default library, this wasted too many milliseconds and unnecessarily delayed the creation of materials. Now this is optimized and the time to create the material is reduced"
+				}
+			}
+		},
 		"4.1.111": {
 			"date": "17-11-2023",
 			"name": "Extreme PBR",

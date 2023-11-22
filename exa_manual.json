@@ -999,7 +999,8 @@
 			},
 
 			"ExtremePbrObjectProp": {
-				"smooth_step": ""
+				"smooth_step": "",
+				"displace_type": "https://extreme-pbr-docs.readthedocs.io/en/latest/displacement.html#displace-type"
 			},
 
 			"ExtremePbrMaterialProp": {
