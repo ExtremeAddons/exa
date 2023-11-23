@@ -13,7 +13,7 @@
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#add-replace-remove-buttons"
 		},
 		"ANTI_TILE_PANEL": {
-			"documentation": ""
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#use-anti-tile"
 		},
 		"BAKE_MENU": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/bake_panel.html"
@@ -703,6 +703,11 @@
 			"open_web_browser": "GET_KEY",
 			"boolean_socket": "GET_KEY",
 
+			"convert_material": {
+				"options": {
+					"CONVERT_TO_NEXUS": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#convert-to-nexus"
+				}
+			},
 
 
 			"os_remove": {
@@ -1010,7 +1015,8 @@
 				"uvs_position_x": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-pos-x-y",
 				"uvs_position_y": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-pos-x-y",
 				"uvs_rotation": "https://extreme-pbr-docs.readthedocs.io/en/latest/mapping_editor.html#uvs-rot",
-				"hide_displace": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#hide-displace"
+				"hide_displace": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#hide-displace",
+				"use_anti_tile": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#use-anti-tile"
 
 			},
 
@@ -1027,7 +1033,8 @@
 				"use_emission": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#use-sockets",
 				"use_transmission": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#use-sockets",
 				"use_alpha": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#use-sockets",
-				"show_projection_settings": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#projection-settings"
+				"show_projection_settings": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#projection-settings",
+				"use_anti_tile": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#use-anti-tile"
 			},
 
 			"ExaSocketProperties": {
