@@ -10,6 +10,35 @@
 		"description": "At this moment it is not possible to update the addon directly from our site. You will have to do this manually. Sorry for the inconvenience."
 	},
 	"updates": {
+		"4.1.113": {
+			"date": "24-11-2023",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Fix - Metal Maps",
+					"description": "Due to an error in the code, some Metallic maps were not recognized"
+				},
+				"2" : {
+					"title": "Improved - Convert to Nexus Material Button",
+					"description": "Now this operator also searches in the groups and subgroups of the group nodes present in the material, so as to be able to convert even the materials that have group nodes with standard nomenclature textures inside them"
+				},
+				"3": {
+					"title": "Improved - Texture Nomenclature",
+					"description": "The search for Nomenclature in the name of the textures, now takes place by comparing the name of the texture in lowercase and the nomenclature standard in lowercase, this allows a greater possibility of match, since the outside is not yet well known a standard, and many people adopt Uppercase or Lowercase. So this makes the addon more compatible with textures that have a different nomenclature from the standard one"
+				},
+				"4": {
+					"title": "Bug Fix - Convert to Nexus Material Button",
+					"description": "In some cases it could happen to encounter an error during the conversion, the message reported that the TextureNomenclature class did not have node_tag as an attribute, this has been fixed"
+				}
+
+			}
+		},
 		"4.1.112": {
 			"date": "23-11-2023",
 			"name": "Extreme PBR",
