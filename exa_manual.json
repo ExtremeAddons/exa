@@ -709,7 +709,6 @@
 				}
 			},
 
-
 			"os_remove": {
 				"options": {
 					"REMOVE_FIRST_MESSAGE": "",
