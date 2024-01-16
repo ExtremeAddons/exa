@@ -10,6 +10,26 @@
 		"description": "At this moment it is not possible to update the addon directly from our site. You will have to do this manually. Sorry for the inconvenience."
 	},
 	"updates": {
+		"4.1.115": {
+			"date": "16-01-2024",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "BugFix - Reset Offset Button (Alert button)",
+					"description": "When using the displacement (Modifier) and modifying the following properties (Location, Rotation, Scale) The reset offset button button that rightly appeared as a warning and button, produced an error once pressed. The error was a simple typo in the Python code of a variable, it was fixed."
+				},
+				"2": {
+					"title": "BugFix - Shader Maker Video",
+					"description": "When adding a video via Shader Maker video, the following values (Hue, Exposure, Saturation) were not set correctly, so the video assumed artifact colors that did not respect the original video, so it was corrected by setting the default values correctly"
+				}
+			}
+		},
 		"4.1.114": {
 			"date": "03-12-2023",
 			"name": "Extreme PBR",
