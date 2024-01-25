@@ -703,6 +703,12 @@
 			"open_web_browser": "GET_KEY",
 			"boolean_socket": "GET_KEY",
 
+
+			"reset_offset": {
+				"options": {
+					"ALIGN_FOR_DISPLACE": "https://extreme-pbr-docs.readthedocs.io/en/latest/displacement.html#displace-offset-warning-button"
+				}
+			},
 			"convert_material": {
 				"options": {
 					"CONVERT_TO_NEXUS": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#convert-to-nexus"
