@@ -126,7 +126,9 @@
 		"NEXUS_MODULE_CONVERSION": {
 			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#convert-module-system"
 		},
-
+		"SMART_SHADE_SMOOTH": {
+			"documentation": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#smart-shade-smooth"
+		},
 
 		"NG_FX_NEXUS_LAYER_Exclude_Mask": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#exclude-mask",
 		"NG_FX_NEXUS_LAYER_Invert_Fx": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#exclude-mask",
@@ -700,8 +702,10 @@
 			"remove_volume": "https://extreme-pbr-docs.readthedocs.io/en/latest/preferences.html#remove-volume",
 			"restore_node_value": "https://extreme-pbr-docs.readthedocs.io/en/latest/material_editor.html#reset-values",
 
+
 			"open_web_browser": "GET_KEY",
 			"boolean_socket": "GET_KEY",
+
 
 
 			"reset_offset": {
@@ -819,12 +823,12 @@
 			"import_media": {
 				"options": {
 					"LOAD_IMAGE": "https://extreme-pbr-docs.readthedocs.io/en/latest/texture_manager.html#import-image-texture",
-					"ADD_MODULE": "",
-					"DEFAULT": "",
-					"REPLACE_MATERIAL": "",
-					"REPLACE_MODULE": "",
-					"ADD_FX": "",
-					"REPLACE_FX": ""
+					"ADD_MODULE": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html",
+					"DEFAULT": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html",
+					"REPLACE_MATERIAL": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html",
+					"REPLACE_MODULE": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html",
+					"ADD_FX": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html",
+					"REPLACE_FX": "https://extreme-pbr-docs.readthedocs.io/en/latest/shader_maker.html"
 				}
 			},
 
