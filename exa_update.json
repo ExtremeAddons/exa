@@ -5,14 +5,34 @@
 	},
 	"workinprogressblock": {
 		"lock_operators": [
-			"EXTREMEPBR_OT_update_core_v2",
-			"EXTREMEPBR_OT_modal_installer_v2"
+			"EXTREMEPBR_OT_update_core_v2"
 		],
 		"description": "This feature is temporarily disabled. To update the addon and/or the libraries, download the Extreme PBR addon directly from the Marketplace where you purchased it (BlenderMarket or Gumroad)"
 	},
 	"updates": {
+		"4.1.122": {
+			"date": "04-03-2024" ,
+			"name": "Extreme PBR" ,
+			"edition": "Nexus" ,
+			"url": "",
+			"urgency": true ,
+			"video_embed_code": "" ,
+			"lock_operators": [
+				""
+			] ,
+			"descriptions": {
+				"1": {
+					"title": "Patch - Extreme Addons Tab" ,
+					"description": "The Extreme Addons menu was still displayed, this menu has been removed at the moment because the addon no longer needs to be registered on the Extreme-Addons website, this created confusion. It happened in case the (Now removed) setting 'I have an account on Extreme-Addons could result in True"
+				},
+				"2": {
+					"title": "BugFix - Import Media Texture Manager" ,
+					"description": "The Import Media button inside the Texture Manager, produced an error caused by an update of this operator, it was corrected as this operator now no longer uses the ImportHelper APIs of Blender and the variable of the single file setting had not been updated"
+				}
+			}
+		},
 		"4.1.120": {
-			"date": "xx-02-2024",
+			"date": "04-03-2024",
 			"name": "Extreme PBR",
 			"edition": "Nexus",
 			"url": "https://www.youtube.com/watch?v=83ZLK41mu40&t",
