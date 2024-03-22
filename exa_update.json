@@ -10,6 +10,47 @@
 		"description": "This feature is temporarily disabled. To update the addon and/or the libraries, download the Extreme PBR addon directly from the Marketplace where you purchased it (BlenderMarket or Gumroad)"
 	},
 	"updates": {
+		"4.1.123": {
+			"date": "22-03-2024" ,
+			"name": "Extreme PBR" ,
+			"edition": "Nexus" ,
+			"url": "",
+			"urgency": false ,
+			"video_embed_code": "" ,
+			"lock_operators": [
+				""
+			] ,
+			"descriptions": {
+				"1": {
+					"title": "BugFix - Error case with apply material" ,
+					"description": "In some cases an error appeared when trying to apply a material or replace it, the error was minimal, as it could happen quite casually, this was because in some cases the k_size name selector, the one used to set the type of material, did not have any option selected, so it was null, this happened especially when a material without k_size variations was applied, so no button could be pressed, the material preview had to be changed and returned to it. Now this will not happen anymore as a function has been inserted in the operators that apply the material, which will check that the k_size is selected, otherwise it will be selected through this function"
+				},
+				"2": {
+					"title": "BugFix - Material not applied correctly in Blender 3.3" ,
+					"description": "The material was applied with the Mix RGB node coming from the Blender 3.6 version, so it was an unknown node in Blender 3.3, the function that was responsible for replacing this node, was not working in the correct way, so it was fixed"
+				},
+				"3": {
+					"title": "BugFix - Asset Browser creation in Blender 3.3" ,
+					"description": "As above, the function that was supposed to eventually convert the Mix RGB nodes into those for Blender 3.3 was not working, so even the Asset Browser was potentially created incorrectly (Only in Blender 3.3)"
+				},
+				"4": {
+					"title": "BugFix - Load Texture with Shift Key",
+					"description": "In case you were on a USER library, or an Expansion library (With the libraries selector) by pressing the 'SHIFT' key and the ADD NEW button, the file search browser was opened, but when selecting the image files to import as textures, no material was created, this has been fixed"
+				},
+				"5": {
+					"title": "Improved - Save Editor" ,
+					"description": "It was chosen not to show the 'Save Editor' panel when the selected object had no material, or when no object was selected, this made things complicated if you just wanted to interact with the user libraries, so now the Save Editor panel will also be shown when those 2 cases occur"
+				},
+				"6": {
+					"title": "BugFix - Displacement button not show for materials saved as Nexus Modules" ,
+					"description": "The displacement button was no longer present if a Nexus module had been saved with the appropriate 'SAVE MODULE' button in the 'SAVE EDITOR' panel, this because the saved material was not recognized as a Nexus material, so to solve the problem the function that shows the displacement button (Obviously if the Bump or Displacement texture is present) will search for Nexus modules, regardless of the type of Material."
+				},
+				"7": {
+					"title": "Added - Activate Material Nodes",
+					"description": "If some material on the selected object does not have the nodes active (That is mat.use_nodes) a button Activate Material Nodes will be shown in the Material List of Extreme PBR so as to set the mat.use_nodes property to True so that the material can be displayed correctly (If the material has nodes)"
+				}
+			}
+		},
 		"4.1.122": {
 			"date": "04-03-2024" ,
 			"name": "Extreme PBR" ,
@@ -159,7 +200,7 @@
 					"description": "The Remove Material button, if an empty material slot was removed, also removed the displacement on the object, now a condition has been put for which if the slot is empty, it does not remove the displacement (Only if there is a material in the ob.data.materials with an active displacement)"
 				},
 				"30": {
-					"title": "Removed - I Have an acount on Extreme-Addons",
+					"title": "Removed - I Have an account on Extreme-Addons",
 					"description": "Due to a problem with those who manage our website, this function has been temporarily removed"
 				}
 			}
@@ -216,7 +257,7 @@
 				},
 				"6": {
 					"title": "Optimized - Update Menu",
-					"description": "The Update menu, in the addon preferences, was very slow, as it examined files on the hard disk many times unnecessarily, now everything is stored in some variables that keep the json files in memory, this has speeded up the menu by about 400x times, which now it is much more fluid than before"
+					"description": "The Update menu, in the addon preferences, was very slow, as it examined files on the hard disk many times unnecessarily, now everything is stored in some variables that keep the json files in memory, this has speeder up the menu by about 400x times, which now it is much more fluid than before"
 				},
 				"7": {
 					"title": "Bug Fix - Remove Volume Installed",
@@ -341,11 +382,11 @@
 				},
 				"3": {
 					"title": "Fixed - Asset Browser Creation Time (For Blender 4.x)",
-					"description": "Speeded up the process of creating the asset browser in Blender 4, in this version of Blender, it was very slow, this has been fixed"
+					"description": "Speeder up the process of creating the asset browser in Blender 4, in this version of Blender, it was very slow, this has been fixed"
 				},
 				"4": {
 					"title": "Fixed - Time to create the material",
-					"description": "The time to create the material via the Add-New button has been speeded up by about x4 times, as the reloading of the textures was unnecessarily attempted in the function of assigning the textures in the image nodes, now an exception has been put that prevents the reloading as it was useless"
+					"description": "The time to create the material via the Add-New button has been speeder up by about x4 times, as the reloading of the textures was unnecessarily attempted in the function of assigning the textures in the image nodes, now an exception has been put that prevents the reloading as it was useless"
 				},
 				"5": {
 					"title": "Bug Fix - Auto Re-Link Libraries Button",
@@ -501,7 +542,7 @@
 				},
 				"34": {
 					"title": "Fix: Re-Project Problem",
-					"description": "When you add a Module for painting, an UV layer is automatically created, but it was not projected with the smart projection, the painting worked correctly but when you pressed 'Re-Prokect' the UV map was projected for the first time damaging the mapping of the current painting even if right, now this is solved by an initial projection equal to that which is carried out using the 'Re-Project' button so as not to confuse. Note: The 'Re-Project' button was created to re-project the UV mapping in case you modify the object in use, this does a correct projection, but breaks the painting (Expected behavior) use with caution!"
+					"description": "When you add a Module for painting, an UV layer is automatically created, but it was not projected with the smart projection, the painting worked correctly but when you pressed 'Re-Project' the UV map was projected for the first time damaging the mapping of the current painting even if right, now this is solved by an initial projection equal to that which is carried out using the 'Re-Project' button so as not to confuse. Note: The 'Re-Project' button was created to re-project the UV mapping in case you modify the object in use, this does a correct projection, but breaks the painting (Expected behavior) use with caution!"
 				},
 				"35": {
 					"title": "Anti: Crash improved",
@@ -641,7 +682,7 @@
 			"descriptions": {
 				"1": {
 					"title": "Patch: Stuck during the material download phase",
-					"description": "During the download phase an error was raised during the execution of os.remove() of the file 'exa_files.json' this blocked the dowload. Now an exception in case 'exa_files.json' does not exist, no longer raises errors as it is checked with os.path.isfile ()"
+					"description": "During the download phase an error was raised during the execution of os.remove() of the file 'exa_files.json' this blocked the download. Now an exception in case 'exa_files.json' does not exist, no longer raises errors as it is checked with os.path.isfile ()"
 				}
 			}
 		},
