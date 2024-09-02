@@ -10,16 +10,75 @@
 		"description": "This feature is temporarily disabled. To update the addon and/or the libraries, download the Extreme PBR addon directly from the Marketplace where you purchased it (BlenderMarket or Gumroad)"
 	},
 	"updates": {
-		"4.1.124": {
-			"date": "20-04-2024" ,
-			"name": "Extreme PBR" ,
-			"edition": "Nexus" ,
+		"4.1.127": {
+			"date": "27-06-2024",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
 			"url": "",
-			"urgency": true,
-			"video_embed_code": "" ,
+			"urgency": false,
+			"video_embed_code": "",
 			"lock_operators": [
 				""
-			] ,
+			],
+			"descriptions": {
+				"1": {
+					"title": "Conflict with material preview in Blender 4.2",
+					"description": "On Blender 4.2 Extreme PBR could conflict with HDRi Maker or other addons due to the new APIs of Blender 4.2 and the new names of the addon modules, this problem has been solved."
+				}
+			}
+		},
+		"4.1.126": {
+			"date": "17-06-2024",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": "",
+			"urgency": false,
+			"video_embed_code": "",
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Compatibility with Blender 4.2",
+					"description": "The new extensions/addons system uses a new blender_manifest.toml, which replaces the old bl_info, an update has been made to make Extreme PBR compatible with Blender 4.2 while maintaining retro-compatibility with previous Blender versions"
+				},
+				"2": {
+					"title": "Important Note:",
+					"description": "It is not recommended to save Materials into User Library in Blender 4.2 and use them in previous versions, as the new APIs of Blender especially those of Raytracing are not present in versions prior to 4.1, the use cases in which the properties of such material could be lost, are in Eevee, which: (Transparencies, Transmission, Subsurface Translucency) these 3 properties cannot be saved together with the material, as in Blender 4.2 they are not strictly necessary, unlike previous versions. As for all materials saved in previous versions, including the Default Library, code has been added to recognize these properties and convert them into properties compatible with Blender 4.2, so as not to lose the properties of materials saved in previous versions."
+				}
+			}
+		},
+		"4.1.125": {
+			"date": "09-06-2024",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": "",
+			"urgency": true,
+			"video_embed_code": "",
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Important Bugfix",
+					"description": "When trying to do a Worn edges in Blender 4.1 an error appeared that made it impossible to complete the procedure 'copy_ob.data.use_autosmooth' was headed as an error, in fact this is a piece of code that due to an oversight has not been modified as this API in Blender 4.1 is no longer present. This is now fixed"
+				},
+				"2": {
+					"title": "Save Material",
+					"description": "Due to the same problem described above, it could happen that during the saving of the materials, the same error was encountered. This has been corrected"
+				}
+			}
+		},
+		"4.1.124": {
+			"date": "20-04-2024",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
+			"url": "",
+			"urgency": true,
+			"video_embed_code": "",
+			"lock_operators": [
+				""
+			],
 			"descriptions": {
 				"1": {
 					"title": "Improved - Autosave Paint Image",
@@ -42,32 +101,32 @@
 					"description": "Microdisplacement did not work in Blender 4.1, this is because the new APIs of Blender 4.1 have changed from material.cycles.displacement_method to material.displacement_method, a condition has also been put that makes it backward compatible with previous versions of Blender"
 				},
 				"6": {
-					"title": "Fix - data_materials Enum none" ,
+					"title": "Fix - data_materials Enum none",
 					"description": "When a material was removed with Extreme PBR the data_materials enum of Extreme PBR shows None, now when a material is removed with Extreme PBR this property is always set to the first available"
 				}
 			}
 		},
 		"4.1.123": {
-			"date": "22-03-2024" ,
-			"name": "Extreme PBR" ,
-			"edition": "Nexus" ,
+			"date": "22-03-2024",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
 			"url": "",
-			"urgency": false ,
-			"video_embed_code": "" ,
+			"urgency": false,
+			"video_embed_code": "",
 			"lock_operators": [
 				""
-			] ,
+			],
 			"descriptions": {
 				"1": {
-					"title": "BugFix - Error case with apply material" ,
+					"title": "BugFix - Error case with apply material",
 					"description": "In some cases an error appeared when trying to apply a material or replace it, the error was minimal, as it could happen quite casually, this was because in some cases the k_size name selector, the one used to set the type of material, did not have any option selected, so it was null, this happened especially when a material without k_size variations was applied, so no button could be pressed, the material preview had to be changed and returned to it. Now this will not happen anymore as a function has been inserted in the operators that apply the material, which will check that the k_size is selected, otherwise it will be selected through this function"
 				},
 				"2": {
-					"title": "BugFix - Material not applied correctly in Blender 3.3" ,
+					"title": "BugFix - Material not applied correctly in Blender 3.3",
 					"description": "The material was applied with the Mix RGB node coming from the Blender 3.6 version, so it was an unknown node in Blender 3.3, the function that was responsible for replacing this node, was not working in the correct way, so it was fixed"
 				},
 				"3": {
-					"title": "BugFix - Asset Browser creation in Blender 3.3" ,
+					"title": "BugFix - Asset Browser creation in Blender 3.3",
 					"description": "As above, the function that was supposed to eventually convert the Mix RGB nodes into those for Blender 3.3 was not working, so even the Asset Browser was potentially created incorrectly (Only in Blender 3.3)"
 				},
 				"4": {
@@ -75,11 +134,11 @@
 					"description": "In case you were on a USER library, or an Expansion library (With the libraries selector) by pressing the 'SHIFT' key and the ADD NEW button, the file search browser was opened, but when selecting the image files to import as textures, no material was created, this has been fixed"
 				},
 				"5": {
-					"title": "Improved - Save Editor" ,
+					"title": "Improved - Save Editor",
 					"description": "It was chosen not to show the 'Save Editor' panel when the selected object had no material, or when no object was selected, this made things complicated if you just wanted to interact with the user libraries, so now the Save Editor panel will also be shown when those 2 cases occur"
 				},
 				"6": {
-					"title": "BugFix - Displacement button not show for materials saved as Nexus Modules" ,
+					"title": "BugFix - Displacement button not show for materials saved as Nexus Modules",
 					"description": "The displacement button was no longer present if a Nexus module had been saved with the appropriate 'SAVE MODULE' button in the 'SAVE EDITOR' panel, this because the saved material was not recognized as a Nexus material, so to solve the problem the function that shows the displacement button (Obviously if the Bump or Displacement texture is present) will search for Nexus modules, regardless of the type of Material."
 				},
 				"7": {
@@ -89,22 +148,22 @@
 			}
 		},
 		"4.1.122": {
-			"date": "04-03-2024" ,
-			"name": "Extreme PBR" ,
-			"edition": "Nexus" ,
+			"date": "04-03-2024",
+			"name": "Extreme PBR",
+			"edition": "Nexus",
 			"url": "",
-			"urgency": true ,
-			"video_embed_code": "" ,
+			"urgency": true,
+			"video_embed_code": "",
 			"lock_operators": [
 				""
-			] ,
+			],
 			"descriptions": {
 				"1": {
-					"title": "Patch - Extreme Addons Tab" ,
+					"title": "Patch - Extreme Addons Tab",
 					"description": "The Extreme Addons menu was still displayed, this menu has been removed at the moment because the addon no longer needs to be registered on the Extreme-Addons website, this created confusion. It happened in case the (Now removed) setting 'I have an account on Extreme-Addons could result in True"
 				},
 				"2": {
-					"title": "BugFix - Import Media Texture Manager" ,
+					"title": "BugFix - Import Media Texture Manager",
 					"description": "The Import Media button inside the Texture Manager, produced an error caused by an update of this operator, it was corrected as this operator now no longer uses the ImportHelper APIs of Blender and the variable of the single file setting had not been updated"
 				}
 			}
@@ -336,7 +395,7 @@
 					"title": "Fix - Metal Maps",
 					"description": "Due to an error in the code, some Metallic maps were not recognized"
 				},
-				"2" : {
+				"2": {
 					"title": "Improved - Convert to Nexus Material Button",
 					"description": "Now this operator also searches in the groups and subgroups of the group nodes present in the material, so as to be able to convert even the materials that have group nodes with standard nomenclature textures inside them"
 				},
@@ -348,7 +407,6 @@
 					"title": "Bug Fix - Convert to Nexus Material Button",
 					"description": "In some cases it could happen to encounter an error during the conversion, the message reported that the TextureNomenclature class did not have node_tag as an attribute, this has been fixed"
 				}
-
 			}
 		},
 		"4.1.112": {
@@ -449,7 +507,7 @@
 					"title": "Added: Works on Blender 4.0",
 					"description": "Extreme PBR now works on Blender 4.0 and also on previous versions from 3.3 onwards"
 				},
-				"2":{
+				"2": {
 					"title": "Improved: Add material 2x faster for Nexus Texture Materials",
 					"description": "A new smart system makes the creation of Materials (So the addition) much faster, as Eevee takes much less time to compile the shader, this was possible by managing the unused internal nodes and putting them on mute if they are not used"
 				},
@@ -458,7 +516,7 @@
 					"description": "In accordance with the new Blender 4.0 which has removed the Subsurface Color socket in Blender 4.0 now the Subsurface Color will be guided by Base Color"
 				},
 				"4": {
-					"title": "Improve: Rotation XYZ" ,
+					"title": "Improve: Rotation XYZ",
 					"description": "For some reason, the Nexus node had its XYZ Rotation properties set to Float and not Angle, now these properties will be in degrees as they already should be."
 				},
 				"5": {
